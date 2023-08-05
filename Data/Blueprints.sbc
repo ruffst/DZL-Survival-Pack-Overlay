@@ -159,7 +159,7 @@
                 <Item Amount="14" TypeId="Ingot" SubtypeId="Platinum"/>
                 <Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
                 <Item Amount="10" TypeId="Ingot" SubtypeId="Titanium"/>
-                <Item Amount="14" TypeId="Ingot" SubtypeId="Tech2x"/>
+                <Item Amount="14" TypeId="Component" SubtypeId="Tech2x"/>
                 
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
@@ -182,7 +182,7 @@
                 <Item Amount="32" TypeId="Ingot" SubtypeId="Uranium"/>
                 <Item Amount="25" TypeId="Ingot" SubtypeId="Platinum"/>
                 <Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>   
-                <Item Amount="14" TypeId="Ingot" SubtypeId="Tech4x"/>         
+                <Item Amount="14" TypeId="Component" SubtypeId="Tech4x"/>         
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
             <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
