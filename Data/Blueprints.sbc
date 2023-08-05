@@ -135,6 +135,8 @@
                 <Item Amount="15" TypeId="Ingot" SubtypeId="Gold"/>
                 <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium"/>
                 <Item Amount="5" TypeId="Ingot" SubtypeId="Platinum"/>
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="Tech2x"/>
             <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
@@ -155,7 +157,10 @@
                 <Item Amount="20" TypeId="Ingot" SubtypeId="Gold"/>
                 <Item Amount="18" TypeId="Ingot" SubtypeId="Uranium"/>
                 <Item Amount="14" TypeId="Ingot" SubtypeId="Platinum"/>
-                <Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Titanium"/>
+                <Item Amount="14" TypeId="Ingot" SubtypeId="Tech2x"/>
+                
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
             <BaseProductionTimeInSeconds>80</BaseProductionTimeInSeconds>
@@ -176,7 +181,9 @@
                 <Item Amount="46" TypeId="Ingot" SubtypeId="Gold"/>
                 <Item Amount="32" TypeId="Ingot" SubtypeId="Uranium"/>
                 <Item Amount="25" TypeId="Ingot" SubtypeId="Platinum"/>
-                <Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>            </Prerequisites>
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>   
+                <Item Amount="14" TypeId="Ingot" SubtypeId="Tech4x"/>         
+            </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
             <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
         </Blueprint>
