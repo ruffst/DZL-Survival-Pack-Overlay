@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    
+
+    <BlueprintClassEntries>
+
+       <!--Ingots-->  
+            <Entry Class="Ingots" BlueprintSubtypeId="StoneOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="IronOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="NickelOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="CobaltOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="MagnesiumOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="SiliconOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="SilverOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="GoldOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="PlatinumOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="UraniumOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="LeadOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="CopperOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="AluminumOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="TitaniumOreToIngot" />       
+            <Entry Class="Ingots" BlueprintSubtypeId="PenetratiumOreToIngot" />
+
+        <!--Components
+
+            <Entry Class="Components" BlueprintSubtypeId="Kupferdraht" />
+            <Entry Class="Components" BlueprintSubtypeId="AluminiumPlate" />
+            <Entry Class="Components" BlueprintSubtypeId="TitanPlate" />
+            <Entry Class="Components" BlueprintSubtypeId="Bleiplatte" />
+            <Entry Class="Components" BlueprintSubtypeId="PenetratiumToPlate" />-->
+
+       
+
+
+    </BlueprintClassEntries>
+</Definitions>
