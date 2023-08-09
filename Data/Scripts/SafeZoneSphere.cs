@@ -18,39 +18,12 @@ using Sandbox.Game;
 namespace SafeZoneCap
 {
 
-    /*public enum UiMode     // how to treat the checkbox in the block UI
-    {
-        NoEffect,
-        Disabled,
-        Hidden
-    }*/
-
-    [Flags]
-    public enum KeenMySafeZoneAction
-    {
-        Damage = 1,
-        Shooting = 2,
-        Drilling = 4,
-        Welding = 8,
-        Grinding = 16,
-        VoxelHand = 32,
-        Building = 64,
-        LandingGearLock = 128,
-        ConvertToStation = 256,
-        BuildingProjections = 512,
-        NoShooting = Damage | Drilling | Welding | Grinding | VoxelHand | Building | LandingGearLock | ConvertToStation | BuildingProjections,
-        All = Damage | Shooting | Drilling | Welding | Grinding | VoxelHand | Building | LandingGearLock | ConvertToStation | BuildingProjections,
-        AdminIgnore = Shooting | Drilling | Welding | Grinding | VoxelHand | Building | ConvertToStation
-    }
-
-    public class Globals
+     public class Globals
     {
         public static readonly bool Debug = true;
-        public static bool modificationsComplete = false;   // so we only run that code once per block
-        public static bool PropertyChanged = true;          // if someone/something changes the property, catch it
-        //public static UiMode UImode = UiMode.Hidden;
-        public static bool PunishmentEnabled = false;        // generator will be turned off if player uses programmable block to try to turn shooting on.
-        public static bool debug = false;        // generator will be turned off if player uses programmable block to try to turn shooting on.
+        public static bool modificationsComplete = false;  
+        public static bool PropertyChanged = true;           
+        public static bool debug = false;   
         public static bool allowChangeShape = true;
         public static float maxSafeZoneRadius = 40;
         public static bool configLoaded = false;
@@ -172,7 +145,6 @@ namespace SafeZoneCap
 
             str.Append("allow-change-shape=").Append(Globals.allowChangeShape).AppendLine();
             str.Append("max-safezone-radius=").Append(Globals.maxSafeZoneRadius).AppendLine();
-            str.Append("punishing=").Append(Globals.PunishmentEnabled).AppendLine();
             str.Append("debug=").Append(Globals.debug).AppendLine();
 
             return str.ToString();
@@ -201,9 +173,6 @@ namespace SafeZoneCap
                             break;
                         case "max-safezone-radius":
                             Globals.maxSafeZoneRadius = float.Parse(args[1]);
-                            break;
-                        case "punishing":
-                            Globals.PunishmentEnabled = bool.Parse(args[1]);
                             break;
                         case "debug":
                             Globals.debug = bool.Parse(args[1]);
@@ -285,17 +254,7 @@ namespace SafeZoneCap
             // if something changed the property, change it back
             if (Globals.PropertyChanged)
             {
-
                 ChangeValues();
-                if (Globals.PunishmentEnabled)
-                {
-                    // turn off the block
-                    myBlock.Enabled = false;
-
-                    // attempt to get player name
-                    string pname = GetPlayerNameFromIdentity(myBlock.OwnerId);
-                    Logger.Log("Block '" + myBlock.DisplayNameText + "' owned by '" + ((pname != "") ? pname : myBlock.OwnerId.ToString()) + "' punished.");
-                }
                 Globals.PropertyChanged = false;
             }
         }

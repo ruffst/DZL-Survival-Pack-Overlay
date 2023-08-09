@@ -42,7 +42,7 @@
 				<Item Amount="0.3" TypeId="Ingot" SubtypeId="Silicon" />
 				<!--<Item Amount="1.24" TypeId="Ingot" SubtypeId="Copper" />
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Lead" />-->
-        <Item Amount="0.07" TypeId="Ingot" SubtypeId="Cobalt" />
+       			<Item Amount="0.07" TypeId="Ingot" SubtypeId="Cobalt" />
 			</Results>
 			<Priority>1000</Priority>
 			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
@@ -339,8 +339,7 @@
 				<Item Amount="25" TypeId="Ingot" SubtypeId="Gold"/>
 				<Item Amount="15" TypeId="Ingot" SubtypeId="Uranium"/>
 				<Item Amount="15" TypeId="Ingot" SubtypeId="Platinum"/>
-				<!-- <Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
-        <Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>-->
+
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech2x"/>
 			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
@@ -361,8 +360,8 @@
 				<Item Amount="20" TypeId="Ingot" SubtypeId="Gold"/>
 				<Item Amount="18" TypeId="Ingot" SubtypeId="Uranium"/>
 				<Item Amount="14" TypeId="Ingot" SubtypeId="Platinum"/>
-				<Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
-				<Item Amount="10" TypeId="Ingot" SubtypeId="Titanium"/>
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
+        		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
 				<Item Amount="14" TypeId="Component" SubtypeId="Tech2x"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
@@ -384,26 +383,55 @@
 				<Item Amount="46" TypeId="Ingot" SubtypeId="Gold"/>
 				<Item Amount="32" TypeId="Ingot" SubtypeId="Uranium"/>
 				<Item Amount="25" TypeId="Ingot" SubtypeId="Platinum"/>
-				<Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
+        		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Titanium"/>
 				<Item Amount="14" TypeId="Component" SubtypeId="Tech4x"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
 			<BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
 		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Tech16x</SubtypeId>
+			</Id>
+			<DisplayName>Elite Tech</DisplayName>
+			<Icon>Textures\tech16x.dds</Icon>
+			<Prerequisites>
+				<Item Amount="120" TypeId="Ingot" SubtypeId="Iron"/>
+				<Item Amount="90" TypeId="Ingot" SubtypeId="Silicon"/>
+				<Item Amount="95" TypeId="Ingot" SubtypeId="Nickel"/>
+				<Item Amount="66" TypeId="Ingot" SubtypeId="Cobalt"/>
+				<Item Amount="55" TypeId="Ingot" SubtypeId="Silver"/>
+				<Item Amount="46" TypeId="Ingot" SubtypeId="Gold"/>
+				<Item Amount="32" TypeId="Ingot" SubtypeId="Uranium"/>
+				<Item Amount="25" TypeId="Ingot" SubtypeId="Platinum"/>
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
+        		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
+				<Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>
+				<Item Amount="14" TypeId="Component" SubtypeId="Tech8x"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Tech16x"/>
+			<BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
+		</Blueprint>
 	</Blueprints>
 	<BlueprintClassEntries>
-		<Entry Class="Components" BlueprintSubtypeId="Cobalt_Box_Component" />
-		<Entry Class="Components" BlueprintSubtypeId="Iron_Box_Component" />
-		<Entry Class="Components" BlueprintSubtypeId="Silicon_Box_Component" />
-		<Entry Class="Components" BlueprintSubtypeId="Magnesium_Box_Component" />
-		<Entry Class="Components" BlueprintSubtypeId="Nickel_Box_Component" />
-		<Entry Class="Components" BlueprintSubtypeId="Uranium_Box_Component" />
-		<Entry Class="Components" BlueprintSubtypeId="Platinum_Box_Component" />
-		<Entry Class="Components" BlueprintSubtypeId="Silver_Box_Box_Component" />
-		<Entry Class="Components" BlueprintSubtypeId="Gold_Box_Component" />
-		<Entry Class="Components" BlueprintSubtypeId="Tech2x" />
-    <!--<Entry Class="Components" BlueprintSubtypeId="Tech4x" />
-    <Entry Class="Components" BlueprintSubtypeId="Tech8x" />
-    <Entry Class="Components" BlueprintSubtypeId="Bleiplatte" />-->
+		<Entry Class="Boxes" BlueprintSubtypeId="Cobalt_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Iron_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Silicon_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Magnesium_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Nickel_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Uranium_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Platinum_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Silver_Box_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Gold_Box_Component" />
+		<Entry Class="Components1" BlueprintSubtypeId="Tech2x" />
+    	<Entry Class="Components2" BlueprintSubtypeId="Tech4x" />
+    	<Entry Class="Components3" BlueprintSubtypeId="Tech8x" />
+		<Entry Class="Components4" BlueprintSubtypeId="Tech16x" />
+
 	</BlueprintClassEntries>
 </Definitions>

@@ -1,0 +1,515 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CubeBlocks>
+        <!--        Tier 2-->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>LargeRefinery2x</SubtypeId>
+            </Id>
+            <DisplayName>Enhanced Refinery</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>..\1682499145\Textures\refinery2x.dds</Icon>
+            <Description>Description_Refinery</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="2"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\Refinery.mwm</Model>
+            <Components>
+                <Component Subtype="Tech2x" Count="30"/>
+                <Component Subtype="SteelPlate" Count="1650"/>
+                <Component Subtype="Construction" Count="60"/>
+                <Component Subtype="LargeTube" Count="30"/>
+                <Component Subtype="Motor" Count="24"/>
+                <Component Subtype="MetalGrid" Count="30"/>
+                <Component Subtype="Computer" Count="30"/>
+                <Component Subtype="SteelPlate" Count="150"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <Center x="1" y="0" z="1"/>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1"/>
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>Refinery2x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>135</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>11.2500</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>0.9800</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>Ingots</Class>
+                <Class>Ingots2</Class>
+            </BlueprintClasses>
+            <RefineSpeed>2.2750</RefineSpeed>
+            <MaterialEfficiency>1.05</MaterialEfficiency>
+            <OreAmountPerPullRequest>20000</OreAmountPerPullRequest>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <Center x="1" y="0" z="0"/>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockRafinery</PrimarySound>
+            <ActionSound>BlockRafineryProcess</ActionSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>90</PCU>
+
+        </Definition>
+      <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>LargeRefineryIndustrial2x</SubtypeId>
+            </Id>
+            <DisplayName>Enhanced Industrial Refinery</DisplayName>
+            <GuiVisible>false</GuiVisible>
+           <Icon>..\1682499145\Textures\AdvancedRefinery2x.dds</Icon>
+            <Description>Description_Refinery</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AdvancedRefinery.mwm</Model>
+            <Components>
+                <Component Subtype="Tech2x" Count="30"/>
+                <Component Subtype="SteelPlate" Count="1650"/>
+                <Component Subtype="Construction" Count="60"/>
+                <Component Subtype="LargeTube" Count="30"/>
+                <Component Subtype="Motor" Count="24"/>
+                <Component Subtype="MetalGrid" Count="30"/>
+                <Component Subtype="Computer" Count="30"/>
+                <Component Subtype="SteelPlate" Count="150"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <Center x="1" y="0" z="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="1.5" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="0.8" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.8" EndY="0.1" />
+                <MountPoint Side="Top" StartX="0.1" StartY="1" EndX="1.9" EndY="1.7" />
+                <MountPoint Side="Top" StartX="0.4" StartY="1.7" EndX="1.7" EndY="1.9" />
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="2.1" />
+                <MountPoint Side="Left" StartX="0.4" StartY="3" EndX="2" EndY="3.9" />
+                <MountPoint Side="Left" StartX="1.8" StartY="2.1" EndX="2" EndY="3" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0" EndX="1" EndY="0.7" />
+                <MountPoint Side="Left" StartX="0.2" StartY="1.1" EndX="0.8" EndY="1.4" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.4" EndY="1.1" />
+                <MountPoint Side="Right" StartX="1.4" StartY="0" EndX="2" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="1.1" EndX="0.4" EndY="3.3" />
+                <MountPoint Side="Right" StartX="0" StartY="3.3" EndX="1.7" EndY="3.9" />
+                <MountPoint Side="Right" StartX="0.4" StartY="2" EndX="2" EndY="2.1" />
+                <MountPoint Side="Front" StartX="1.2" StartY="0" EndX="1.8" EndY="0.7" />
+                <MountPoint Side="Front" StartX="1.2" StartY="1.1" EndX="1.8" EndY="1.4" />
+                <MountPoint Side="Front" StartX="0" StartY="2" EndX="1" EndY="2.1" />
+                <MountPoint Side="Front" StartX="0.3" StartY="3.3" EndX="1.6" EndY="3.9" />
+                <MountPoint Side="Front" StartX="0.8" StartY="3" EndX="1.6" EndY="3.3" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AdvancedRefinery_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedRefinery_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedRefinery_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>RefineryIndustrial2x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>135</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>11.2500</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+            
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>0.9800</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>Ingots</Class>
+                <Class>Ingots2</Class>
+            </BlueprintClasses>
+          <RefineSpeed>2.2750</RefineSpeed>
+          <MaterialEfficiency>1.05</MaterialEfficiency>
+          <OreAmountPerPullRequest>20000</OreAmountPerPullRequest>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <Center x="1" y="0" z="0" />
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockRafinery</PrimarySound>
+            <ActionSound>BlockRafineryProcess</ActionSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>90</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+        <!--        Tier 4-->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>LargeRefinery4x</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Refinery</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>..\1682499145\Textures\refinery4x.dds</Icon>
+            <Description>Description_Refinery</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="2"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\Refinery.mwm</Model>
+            <Components>
+                <Component Subtype="Tech4x" Count="30"/>
+                <Component Subtype="SteelPlate" Count="2475"/>
+                <Component Subtype="Construction" Count="90"/>
+                <Component Subtype="LargeTube" Count="45"/>
+                <Component Subtype="Motor" Count="36"/>
+                <Component Subtype="MetalGrid" Count="45"/>
+                <Component Subtype="Computer" Count="45"/>
+                <Component Subtype="SteelPlate" Count="225"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <Center x="1" y="0" z="1"/>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1"/>
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>Refinery4x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>203</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>14.0625</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>1.7150</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>Ingots</Class>
+                <Class>Ingots2</Class>
+                <Class>Ingots3</Class>
+            </BlueprintClasses>
+            <RefineSpeed>3.9813</RefineSpeed>
+            <MaterialEfficiency>1.1</MaterialEfficiency>
+            <OreAmountPerPullRequest>40000</OreAmountPerPullRequest>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <Center x="1" y="0" z="0"/>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockRafinery</PrimarySound>
+            <ActionSound>BlockRafineryProcess</ActionSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>90</PCU>
+
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>LargeRefineryIndustrial4x</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Industrial Refinery</DisplayName>
+            <GuiVisible>false</GuiVisible>
+           <Icon>..\1682499145\Textures\AdvancedRefinery4x.dds</Icon>
+            <Description>Description_Refinery</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AdvancedRefinery.mwm</Model>
+            <Components>
+                <Component Subtype="Tech4x" Count="30"/>
+                <Component Subtype="SteelPlate" Count="2475"/>
+                <Component Subtype="Construction" Count="90"/>
+                <Component Subtype="LargeTube" Count="45"/>
+                <Component Subtype="Motor" Count="36"/>
+                <Component Subtype="MetalGrid" Count="45"/>
+                <Component Subtype="Computer" Count="45"/>
+                <Component Subtype="SteelPlate" Count="225"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <Center x="1" y="0" z="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="1.5" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="0.8" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.8" EndY="0.1" />
+                <MountPoint Side="Top" StartX="0.1" StartY="1" EndX="1.9" EndY="1.7" />
+                <MountPoint Side="Top" StartX="0.4" StartY="1.7" EndX="1.7" EndY="1.9" />
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="2.1" />
+                <MountPoint Side="Left" StartX="0.4" StartY="3" EndX="2" EndY="3.9" />
+                <MountPoint Side="Left" StartX="1.8" StartY="2.1" EndX="2" EndY="3" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0" EndX="1" EndY="0.7" />
+                <MountPoint Side="Left" StartX="0.2" StartY="1.1" EndX="0.8" EndY="1.4" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.4" EndY="1.1" />
+                <MountPoint Side="Right" StartX="1.4" StartY="0" EndX="2" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="1.1" EndX="0.4" EndY="3.3" />
+                <MountPoint Side="Right" StartX="0" StartY="3.3" EndX="1.7" EndY="3.9" />
+                <MountPoint Side="Right" StartX="0.4" StartY="2" EndX="2" EndY="2.1" />
+                <MountPoint Side="Front" StartX="1.2" StartY="0" EndX="1.8" EndY="0.7" />
+                <MountPoint Side="Front" StartX="1.2" StartY="1.1" EndX="1.8" EndY="1.4" />
+                <MountPoint Side="Front" StartX="0" StartY="2" EndX="1" EndY="2.1" />
+                <MountPoint Side="Front" StartX="0.3" StartY="3.3" EndX="1.6" EndY="3.9" />
+                <MountPoint Side="Front" StartX="0.8" StartY="3" EndX="1.6" EndY="3.3" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AdvancedRefinery_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedRefinery_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedRefinery_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>RefineryIndustrial4x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>203</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>14.0625</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+            
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>1.7150</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>Ingots</Class>
+                <Class>Ingots2</Class>
+                <Class>Ingots3</Class>
+            </BlueprintClasses>
+          <RefineSpeed>3.9813</RefineSpeed>
+          <MaterialEfficiency>1.1</MaterialEfficiency>
+          <OreAmountPerPullRequest>40000</OreAmountPerPullRequest>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <Center x="1" y="0" z="0" />
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockRafinery</PrimarySound>
+            <ActionSound>BlockRafineryProcess</ActionSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>90</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+        <!--        Tier 8-->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>LargeRefinery8x</SubtypeId>
+            </Id>
+            <DisplayName>Elite Refinery</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>..\1682499145\Textures\refinery8x.dds</Icon>
+            <Description>Description_Refinery</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="2"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\Refinery.mwm</Model>
+            <Components>
+                <Component Subtype="Tech8x" Count="30"/>
+                <Component Subtype="SteelPlate" Count="3713"/>
+                <Component Subtype="Construction" Count="135"/>
+                <Component Subtype="LargeTube" Count="68"/>
+                <Component Subtype="Motor" Count="54"/>
+                <Component Subtype="MetalGrid" Count="68"/>
+                <Component Subtype="Computer" Count="68"/>
+                <Component Subtype="SteelPlate" Count="338"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <Center x="1" y="0" z="1"/>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1"/>
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm"/>
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>Refinery8x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>304</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>17.5781</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>3.0013</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>Ingots</Class>
+                <Class>Ingots2</Class>
+                <Class>Ingots3</Class>
+                <Class>Ingots4</Class>
+            </BlueprintClasses>
+            <RefineSpeed>6.9672</RefineSpeed>
+            <MaterialEfficiency>1.2</MaterialEfficiency>
+            <OreAmountPerPullRequest>80000</OreAmountPerPullRequest>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <Center x="1" y="0" z="0"/>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockRafinery</PrimarySound>
+            <ActionSound>BlockRafineryProcess</ActionSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>90</PCU>
+
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>LargeRefineryIndustrial8x</SubtypeId>
+            </Id>
+            <DisplayName>Elite Industrial Refinery</DisplayName>
+            <GuiVisible>false</GuiVisible>
+           <Icon>..\1682499145\Textures\AdvancedRefinery8x.dds</Icon>
+            <Description>Description_Refinery</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AdvancedRefinery.mwm</Model>
+            <Components>
+                <Component Subtype="Tech8x" Count="30"/>
+                <Component Subtype="SteelPlate" Count="3713"/>
+                <Component Subtype="Construction" Count="135"/>
+                <Component Subtype="LargeTube" Count="68"/>
+                <Component Subtype="Motor" Count="54"/>
+                <Component Subtype="MetalGrid" Count="68"/>
+                <Component Subtype="Computer" Count="68"/>
+                <Component Subtype="SteelPlate" Count="338"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <Center x="1" y="0" z="1" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="1.5" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="0.8" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="0.8" EndY="0.1" />
+                <MountPoint Side="Top" StartX="0.1" StartY="1" EndX="1.9" EndY="1.7" />
+                <MountPoint Side="Top" StartX="0.4" StartY="1.7" EndX="1.7" EndY="1.9" />
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="2.1" />
+                <MountPoint Side="Left" StartX="0.4" StartY="3" EndX="2" EndY="3.9" />
+                <MountPoint Side="Left" StartX="1.8" StartY="2.1" EndX="2" EndY="3" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0" EndX="1" EndY="0.7" />
+                <MountPoint Side="Left" StartX="0.2" StartY="1.1" EndX="0.8" EndY="1.4" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.4" EndY="1.1" />
+                <MountPoint Side="Right" StartX="1.4" StartY="0" EndX="2" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0" StartY="1.1" EndX="0.4" EndY="3.3" />
+                <MountPoint Side="Right" StartX="0" StartY="3.3" EndX="1.7" EndY="3.9" />
+                <MountPoint Side="Right" StartX="0.4" StartY="2" EndX="2" EndY="2.1" />
+                <MountPoint Side="Front" StartX="1.2" StartY="0" EndX="1.8" EndY="0.7" />
+                <MountPoint Side="Front" StartX="1.2" StartY="1.1" EndX="1.8" EndY="1.4" />
+                <MountPoint Side="Front" StartX="0" StartY="2" EndX="1" EndY="2.1" />
+                <MountPoint Side="Front" StartX="0.3" StartY="3.3" EndX="1.6" EndY="3.9" />
+                <MountPoint Side="Front" StartX="0.8" StartY="3" EndX="1.6" EndY="3.3" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AdvancedRefinery_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedRefinery_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedRefinery_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>RefineryIndustrial8x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>304</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>17.5781</InventoryMaxVolume>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+            
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>3.0013</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>Ingots</Class>
+                <Class>Ingots2</Class>
+                <Class>Ingots3</Class>
+                <Class>Ingots4</Class>
+            </BlueprintClasses>
+          <RefineSpeed>6.9672</RefineSpeed>
+          <MaterialEfficiency>1.2</MaterialEfficiency>
+          <OreAmountPerPullRequest>80000</OreAmountPerPullRequest>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <Center x="1" y="0" z="0" />
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockRafinery</PrimarySound>
+            <ActionSound>BlockRafineryProcess</ActionSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>90</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>
