@@ -112,7 +112,7 @@
             <Entry Class="Ingots3" BlueprintSubtypeId="TitaniumOreToIngot" />       
             <Entry Class="Ingots4" BlueprintSubtypeId="PenetratiumOreToIngot" />
 
-        <!--Components2 -->
+        <!--Components -->
             <Entry Class="Components" BlueprintSubtypeId="Tech2x" />
             <Entry Class="Components2" BlueprintSubtypeId="Tech4x" />
             <Entry Class="Components2" BlueprintSubtypeId="Bleiplatte" />
@@ -120,9 +120,10 @@
             <Entry Class="Components2" BlueprintSubtypeId="AluminiumPlate" />
             <Entry Class="Components3" BlueprintSubtypeId="Tech8x" />
             <Entry Class="Components3" BlueprintSubtypeId="TitanPlate" />
-            <Entry Class="Components3" BlueprintSubtypeId="PenetratiumToPlate" />
+            <Entry Class="Components4" BlueprintSubtypeId="PenetratiumToPlate" />
             <Entry Class="Components4" BlueprintSubtypeId="Tech16x" />
        
+        <!--Boxes -->
             <Entry Class="Boxes" BlueprintSubtypeId="Cobalt_Box_Component" />
             <Entry Class="Boxes" BlueprintSubtypeId="Iron_Box_Component" />
             <Entry Class="Boxes" BlueprintSubtypeId="Silicon_Box_Component" />
@@ -132,7 +133,6 @@
             <Entry Class="Boxes" BlueprintSubtypeId="Platinum_Box_Component" />
             <Entry Class="Boxes" BlueprintSubtypeId="Silver_Box_Box_Component" />
             <Entry Class="Boxes" BlueprintSubtypeId="Gold_Box_Component" />       
-
 
     </BlueprintClassEntries>
 </Definitions>

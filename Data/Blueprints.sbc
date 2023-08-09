@@ -418,20 +418,5 @@
 			<BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
 		</Blueprint>
 	</Blueprints>
-	<BlueprintClassEntries>
-		<Entry Class="Boxes" BlueprintSubtypeId="Cobalt_Box_Component" />
-		<Entry Class="Boxes" BlueprintSubtypeId="Iron_Box_Component" />
-		<Entry Class="Boxes" BlueprintSubtypeId="Silicon_Box_Component" />
-		<Entry Class="Boxes" BlueprintSubtypeId="Magnesium_Box_Component" />
-		<Entry Class="Boxes" BlueprintSubtypeId="Nickel_Box_Component" />
-		<Entry Class="Boxes" BlueprintSubtypeId="Uranium_Box_Component" />
-		<Entry Class="Boxes" BlueprintSubtypeId="Platinum_Box_Component" />
-		<Entry Class="Boxes" BlueprintSubtypeId="Silver_Box_Box_Component" />
-		<Entry Class="Boxes" BlueprintSubtypeId="Gold_Box_Component" />
-		<Entry Class="Components1" BlueprintSubtypeId="Tech2x" />
-    	<Entry Class="Components2" BlueprintSubtypeId="Tech4x" />
-    	<Entry Class="Components3" BlueprintSubtypeId="Tech8x" />
-		<Entry Class="Components4" BlueprintSubtypeId="Tech16x" />
 
-	</BlueprintClassEntries>
 </Definitions>
