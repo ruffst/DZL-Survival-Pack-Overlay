@@ -157,7 +157,7 @@
 			<Components>
 				<Component Subtype="SteelPlate" Count="750" />
 				<Component Subtype="Construction" Count="200" />
-				<Component Subtype="MetalGrid" Count="40" />
+				<Component Subtype="MetalGrid" Count="45" />
 				<Component Subtype="Computer" Count="250" />
 				<Component Subtype="LargeTube" Count="50" />
 				<Component Subtype="Superconductor" Count="150" />
