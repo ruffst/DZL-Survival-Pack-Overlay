@@ -147,7 +147,7 @@
 				<TypeId>Reactor</TypeId>
 				<SubtypeId>LBFusionReactorT1</SubtypeId>
 			</Id>
-			<DisplayName>1GW Deuterium Fusion Reactor</DisplayName>
+			<DisplayName>1 GW Deuterium Fusion Reactor</DisplayName>
 			<Icon>..\1259182705\Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
