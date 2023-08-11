@@ -155,7 +155,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\1259182705\Models\Cubes\LBFusionReactor.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="800" />
+				<Component Subtype="SteelPlate" Count="750" />
 				<Component Subtype="Construction" Count="200" />
 				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="Computer" Count="250" />
