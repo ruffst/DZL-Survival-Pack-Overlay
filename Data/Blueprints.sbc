@@ -417,6 +417,27 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech16x"/>
 			<BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
 		</Blueprint>
+		
+		<!--MAMConverter-->
+		<Blueprint Enabled="false">
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>MAMConverter</SubtypeId>
+			</Id>
+			<DisplayName>M/AM Converter</DisplayName>
+			<Icon>Textures\GUI\Icons\component\thrust_components_component.dds</Icon>
+			<Prerequisites>
+			<Item Amount="12" TypeId="Ingot" SubtypeId="Iron" />
+			<Item Amount="8" TypeId="Ingot" SubtypeId="Cobalt" />
+			<Item Amount="6" TypeId="Ingot" SubtypeId="Uranium" />
+			<Item Amount="8" TypeId="Ingot" SubtypeId="Silicon" />
+			<Item Amount="4" TypeId="Ingot" SubtypeId="Gold" />
+			<Item Amount="4" TypeId="Ingot" SubtypeId="Platinum" />
+		</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="MAMConverter" />
+			<BaseProductionTimeInSeconds>32</BaseProductionTimeInSeconds>
+		</Blueprint>
+		
 	</Blueprints>
 
 </Definitions>

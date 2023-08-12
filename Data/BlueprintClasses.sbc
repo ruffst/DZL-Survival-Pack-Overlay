@@ -132,7 +132,10 @@
             <Entry Class="Boxes" BlueprintSubtypeId="Uranium_Box_Component" />
             <Entry Class="Boxes" BlueprintSubtypeId="Platinum_Box_Component" />
             <Entry Class="Boxes" BlueprintSubtypeId="Silver_Box_Box_Component" />
-            <Entry Class="Boxes" BlueprintSubtypeId="Gold_Box_Component" />       
+            <Entry Class="Boxes" BlueprintSubtypeId="Gold_Box_Component" />
+		
+		<!--Blocks -->
+				
 
     </BlueprintClassEntries>
 </Definitions>

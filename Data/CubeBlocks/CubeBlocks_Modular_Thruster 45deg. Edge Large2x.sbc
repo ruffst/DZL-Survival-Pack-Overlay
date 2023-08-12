@@ -1,0 +1,1287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degedgesingle2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped single</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_edge_single_modular2x.png</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_edge_single_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degface2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degedgedown2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degedgeup2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45deglrline2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degedgeleft2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degedgeright2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degudline2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degedgeleftbottom2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degedgeleftup2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degedgerightbottom2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degedgerightup2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degbottomline2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degleftline2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degrightline2x</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeMAMThrusterModular45degupline2x</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <BlockPairName>MAMThruster45degedgesingle2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+      <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degface2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped face</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_face_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="-1.25" />
+      <Model>Models\Large\Thruster_45deg_face_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degface2x</BlockPairName>
+      <Center x="0" y="0" z="0" />
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degedgedown2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped edge down</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_edge_down_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_edge_down_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degedgedown2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degedgeup2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped edge up</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_edge_up_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_edge_up_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degedgeup2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45deglrline2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped left right line</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_l_r_line_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_l_r_line_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45deglrline2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degedgeleft2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped edge left</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_edge_left_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_edge_left_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degedgeleft2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+	  <MirroringBlock>LargeMAMThrusterModular45degedgeright</MirroringBlock>
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degedgeright2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped edge right</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_edge_right_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_edge_right_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degedgeright2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+	  <MirroringBlock>LargeMAMThrusterModular45degedgeleft</MirroringBlock>
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degudline2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped up down line</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_u_d_line_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_u_d_line_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degudline2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degedgeleftbottom2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped edge left bottom</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_edge_left_bottom_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_edge_left_bottom_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degedgeleftbottom2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+	  <MirroringBlock>LargeMAMThrusterModular45degedgerightbottom</MirroringBlock>
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degedgeleftup2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped edge left top</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_edge_left_up_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_edge_left_up_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degedgeleftup2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+	  <MirroringBlock>LargeMAMThrusterModular45degedgerightup</MirroringBlock>
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degedgerightbottom2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped edge right bottom</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_edge_right_bottom_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_edge_right_bottom_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degedgerightbottom2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+	  <MirroringBlock>LargeMAMThrusterModular45degedgeleftbottom</MirroringBlock>
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degedgerightup2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped edge right top</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_edge_right_up_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_edge_right_up_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degedgerightup2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+	  <MirroringBlock>LargeMAMThrusterModular45degedgeleftup</MirroringBlock>
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degbottomline2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped bottom line</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_bottom_line_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_bottom_line_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degbottomline2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degleftline2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped left line</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_leftline_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_leftline_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degleftline2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+	  <MirroringBlock>LargeMAMThrusterModular45degrightline</MirroringBlock>
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degrightline2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped right line</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_rightline_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Large\Thruster_45deg_rightline_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degrightline2x</BlockPairName>
+      <Center x="0" y="0" z="1" />
+	  <MirroringBlock>LargeMAMThrusterModular45degleftline</MirroringBlock>
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+
+<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeMAMThrusterModular45degupline2x</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced M/AM Thruster sloped top line</DisplayName>
+      <Icon>Textures\GUI\Thruster_45deg_up_line_modular2x.png</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="-1.25" />
+      <Model>Models\Large\Thruster_45deg_up_line_modular.mwm</Model>
+      <Components> 
+		<Component Subtype="Tech2x" Count="3"/>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Thrust" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\large\Thruster_45deg_edge_modular_construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\large\Thruster_45deg_edge_modular_construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\large\Thruster_45deg_edge_modular_construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MAMThruster45degupline2x</BlockPairName>
+      <Center x="0" y="0" z="0" />
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringX>None</MirroringX>
+	  <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.4</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+        <W>0.65</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.8</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameVisibilityDistance>1000</FlameVisibilityDistance>
+      <FlameGlareSize>0.1</FlameGlareSize>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectId>213</DamageEffectId>
+	  <PCU>15</PCU>
+    </Definition>
+
+
+
+
+
+
+
+
+    <!-- End Region Thrust Large-->
+
+
+
+
+	
+	
+  </CubeBlocks>
+</Definitions>
