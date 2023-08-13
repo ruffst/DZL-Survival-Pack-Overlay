@@ -408,7 +408,7 @@
 		</Blueprint>
 		
 		<!--MAMConverter-->
-		<Blueprint Enabled="false">
+		<Blueprint >
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>MAMConverter</SubtypeId>

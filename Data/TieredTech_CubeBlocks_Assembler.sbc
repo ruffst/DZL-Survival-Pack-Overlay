@@ -2,13 +2,13 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <CubeBlocks>
 <!--        Vanilla-->
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Assembler</DisplayName>
-           <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <Description>Description_Assembler</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -56,7 +56,6 @@
             <BlueprintClasses>
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
-                <Class>Boxes</Class>
                 <Class>Components</Class>
                 <Class>EliteTools</Class>
                 <Class>BuildPlanner</Class>
@@ -76,13 +75,13 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-       <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssemblerIndustrial</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_AssemblerIndustrial</DisplayName>
-           <Icon>Textures\GUI\Icons\Cubes\AdvancedAssemblerIndustrial.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\AdvancedAssemblerIndustrial.dds</Icon>
             <Description>Description_Assembler</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -135,7 +134,6 @@
             <BlueprintClasses>
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
-                <Class>Boxes</Class>
                 <Class>Components</Class>
                 <Class>EliteTools</Class>
                 <Class>BuildPlanner</Class>
@@ -230,7 +228,6 @@
             <PCU>40</PCU>
             <IsAirTight>true</IsAirTight>
         </Definition>
-
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
             <Id>
                 <TypeId>Assembler</TypeId>
