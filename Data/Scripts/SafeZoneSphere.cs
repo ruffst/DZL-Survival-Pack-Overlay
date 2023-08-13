@@ -196,7 +196,7 @@ namespace SafeZoneCap
 
 
 
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_SafeZoneBlock), false, new string[] {"SafeZoneBlock"})]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_SafeZoneBlock), false, new string[] { "SafeZoneBlock","SafeZoneBlockNoPvP"})]
     public class SafeZoneLogic : MyGameLogicComponent
     {
         private IMySafeZoneBlock myBlock;
