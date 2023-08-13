@@ -331,7 +331,6 @@
 			<DisplayName>Common Tech</DisplayName>
 			<Icon>Textures\tech2x.dds</Icon>
 			<Prerequisites>
-				<Item Amount="60" TypeId="Ingot" SubtypeId="Iron"/>
 				<Item Amount="50" TypeId="Ingot" SubtypeId="Silicon"/>
 				<Item Amount="60" TypeId="Ingot" SubtypeId="Nickel"/>
 				<Item Amount="45" TypeId="Ingot" SubtypeId="Cobalt"/>
@@ -339,6 +338,8 @@
 				<Item Amount="25" TypeId="Ingot" SubtypeId="Gold"/>
 				<Item Amount="15" TypeId="Ingot" SubtypeId="Uranium"/>
 				<Item Amount="15" TypeId="Ingot" SubtypeId="Platinum"/>
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
+        		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
 
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech2x"/>
@@ -352,16 +353,13 @@
 			<DisplayName>Rare Tech</DisplayName>
 			<Icon>Textures\tech4x.dds</Icon>
 			<Prerequisites>
-				<Item Amount="80" TypeId="Ingot" SubtypeId="Iron"/>
-				<Item Amount="60" TypeId="Ingot" SubtypeId="Silicon"/>
-				<Item Amount="40" TypeId="Ingot" SubtypeId="Nickel"/>
-				<Item Amount="45" TypeId="Ingot" SubtypeId="Cobalt"/>
 				<Item Amount="40" TypeId="Ingot" SubtypeId="Silver"/>
-				<Item Amount="20" TypeId="Ingot" SubtypeId="Gold"/>
-				<Item Amount="18" TypeId="Ingot" SubtypeId="Uranium"/>
-				<Item Amount="14" TypeId="Ingot" SubtypeId="Platinum"/>
-				<Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
-        		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
+				<Item Amount="35" TypeId="Ingot" SubtypeId="Gold"/>
+				<Item Amount="60" TypeId="Ingot" SubtypeId="Copper"/>
+        		<Item Amount="50" TypeId="Ingot" SubtypeId="Lead"/>
+				<Item Amount="25" TypeId="Ingot" SubtypeId="Uranium"/>
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Platinum"/>
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
 				<Item Amount="14" TypeId="Component" SubtypeId="Tech2x"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
@@ -375,11 +373,7 @@
 			<DisplayName>Exotic Tech</DisplayName>
 			<Icon>Textures\tech8x.dds</Icon>
 			<Prerequisites>
-				<Item Amount="120" TypeId="Ingot" SubtypeId="Iron"/>
-				<Item Amount="90" TypeId="Ingot" SubtypeId="Silicon"/>
-				<Item Amount="95" TypeId="Ingot" SubtypeId="Nickel"/>
-				<Item Amount="66" TypeId="Ingot" SubtypeId="Cobalt"/>
-				<Item Amount="55" TypeId="Ingot" SubtypeId="Silver"/>
+
 				<Item Amount="46" TypeId="Ingot" SubtypeId="Gold"/>
 				<Item Amount="32" TypeId="Ingot" SubtypeId="Uranium"/>
 				<Item Amount="25" TypeId="Ingot" SubtypeId="Platinum"/>
@@ -400,17 +394,12 @@
 			<DisplayName>Elite Tech</DisplayName>
 			<Icon>Textures\tech16x.dds</Icon>
 			<Prerequisites>
-				<Item Amount="120" TypeId="Ingot" SubtypeId="Iron"/>
-				<Item Amount="90" TypeId="Ingot" SubtypeId="Silicon"/>
-				<Item Amount="95" TypeId="Ingot" SubtypeId="Nickel"/>
-				<Item Amount="66" TypeId="Ingot" SubtypeId="Cobalt"/>
-				<Item Amount="55" TypeId="Ingot" SubtypeId="Silver"/>
-				<Item Amount="46" TypeId="Ingot" SubtypeId="Gold"/>
-				<Item Amount="32" TypeId="Ingot" SubtypeId="Uranium"/>
-				<Item Amount="25" TypeId="Ingot" SubtypeId="Platinum"/>
-				<Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
-        		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
-				<Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
+				<Item Amount="40" TypeId="Ingot" SubtypeId="Uranium"/>
+				<Item Amount="30" TypeId="Ingot" SubtypeId="Platinum"/>
+				<Item Amount="70" TypeId="Ingot" SubtypeId="Copper"/>
+        		<Item Amount="60" TypeId="Ingot" SubtypeId="Lead"/>
+				<Item Amount="40" TypeId="Ingot" SubtypeId="Aluminium"/>
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Titanium"/>
 				<Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>
 				<Item Amount="14" TypeId="Component" SubtypeId="Tech8x"/>
 			</Prerequisites>
