@@ -147,7 +147,7 @@
 				<TypeId>Reactor</TypeId>
 				<SubtypeId>LBFusionReactorT1</SubtypeId>
 			</Id>
-			<DisplayName>1 GW Deuterium Fusion Reactor</DisplayName>
+			<DisplayName>1GW Deuterium Fusion Reactor</DisplayName>
 			<Icon>..\1259182705\Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -155,9 +155,9 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>..\1259182705\Models\Cubes\LBFusionReactor.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="750" />
+				<Component Subtype="SteelPlate" Count="800" />
 				<Component Subtype="Construction" Count="200" />
-				<Component Subtype="MetalGrid" Count="45" />
+				<Component Subtype="MetalGrid" Count="40" />
 				<Component Subtype="Computer" Count="250" />
 				<Component Subtype="LargeTube" Count="50" />
 				<Component Subtype="Superconductor" Count="150" />

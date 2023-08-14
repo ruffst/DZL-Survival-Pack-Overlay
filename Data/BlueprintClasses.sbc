@@ -15,6 +15,32 @@
             <FocusIcon>Textures\GUI\Icons\buttons\highlight_Boxes.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
+        <Class>            <!--Ingots1-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Ingots0</SubtypeId>
+            </Id>
+            <DisplayName>Ingots Tier 0</DisplayName>
+            <Description>Ingots Tier 0</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+        <Class>            <!--Ingots1-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Ingots1</SubtypeId>
+            </Id>
+            <DisplayName>Ingots Tier 1</DisplayName>
+            <Description>Ingots Tier 1</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
         <Class>            <!--Ingots2-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -53,6 +79,42 @@
             <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+        <Class Enabled="false">
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Components</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Components0</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+        <Class>            <!--Components1-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Components1</SubtypeId>
+            </Id>
+            <DisplayName>Components Tier 1</DisplayName>
+            <Description>Components Tier 1</Description>
+            <Icon>Textures\GUI\Icons\buttons\T1.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\highlight_T1.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\highlight_T1.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
         <Class>            <!--Components2-->
             <Id>
@@ -106,22 +168,44 @@
             <Entry Class="Ingots" BlueprintSubtypeId="PlatinumOreToIngot" />
             <Entry Class="Ingots" BlueprintSubtypeId="UraniumOreToIngot" />
 
-            <Entry Class="Ingots2" BlueprintSubtypeId="LeadOreToIngot" />
-            <Entry Class="Ingots2" BlueprintSubtypeId="CopperOreToIngot" />
-            <Entry Class="Ingots2" BlueprintSubtypeId="AluminumOreToIngot" />
-            <Entry Class="Ingots3" BlueprintSubtypeId="TitaniumOreToIngot" />       
-            <Entry Class="Ingots4" BlueprintSubtypeId="PenetratiumOreToIngot" />
+            <Entry Class="Ingots0" BlueprintSubtypeId="LeadOreToIngot" />
+            <Entry Class="Ingots0" BlueprintSubtypeId="CopperOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="AluminumOreToIngot" />
+            <Entry Class="Ingots2" BlueprintSubtypeId="TitaniumOreToIngot" />       
+            <Entry Class="Ingots3" BlueprintSubtypeId="PenetratiumOreToIngot" />
+
+            <Entry Class="Components0" BlueprintSubtypeId="ConstructionComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="GirderComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="MetalGrid" />
+            <Entry Class="Components0" BlueprintSubtypeId="InteriorPlate" />
+            <Entry Class="Components0" BlueprintSubtypeId="SteelPlate" />
+            <Entry Class="Components0" BlueprintSubtypeId="SmallTube" />
+            <Entry Class="Components0" BlueprintSubtypeId="LargeTube" />
+            <Entry Class="Components0" BlueprintSubtypeId="MotorComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="Display" />
+            <Entry Class="Components0" BlueprintSubtypeId="BulletproofGlass" />
+            <Entry Class="Components0" BlueprintSubtypeId="ComputerComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="ReactorComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="ThrustComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="GravityGeneratorComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="MedicalComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="RadioCommunicationComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="DetectorComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="ExplosivesComponent" />
+            <Entry Class="Components0" BlueprintSubtypeId="SolarCell" />
+            <Entry Class="Components0" BlueprintSubtypeId="PowerCell" />
+            <Entry Class="Components0" BlueprintSubtypeId="Superconductor" />
 
         <!--Components -->
-            <Entry Class="Components" BlueprintSubtypeId="Tech2x" />
-            <Entry Class="Components2" BlueprintSubtypeId="Tech4x" />
-            <Entry Class="Components2" BlueprintSubtypeId="Bleiplatte" />
-            <Entry Class="Components2" BlueprintSubtypeId="Kupferdraht" />
+            <Entry Class="Components0" BlueprintSubtypeId="Tech2x" />
+            <Entry Class="Components1" BlueprintSubtypeId="Tech4x" />
+            <Entry Class="Components1" BlueprintSubtypeId="Bleiplatte" />
+            <Entry Class="Components1" BlueprintSubtypeId="Kupferdraht" />
             <Entry Class="Components2" BlueprintSubtypeId="AluminiumPlate" />
-            <Entry Class="Components3" BlueprintSubtypeId="Tech8x" />
-            <Entry Class="Components3" BlueprintSubtypeId="TitanPlate" />
-            <Entry Class="Components4" BlueprintSubtypeId="PenetratiumToPlate" />
-            <Entry Class="Components4" BlueprintSubtypeId="Tech16x" />
+            <Entry Class="Components2" BlueprintSubtypeId="Tech8x" />
+            <Entry Class="Components2" BlueprintSubtypeId="TitanPlate" />
+            <Entry Class="Components3" BlueprintSubtypeId="PenetratiumToPlate" />
+            <Entry Class="Components3" BlueprintSubtypeId="Tech16x" />
        
         <!--Boxes -->
             <Entry Class="Boxes" BlueprintSubtypeId="Cobalt_Box_Component" />

@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Blueprints>
-		<Blueprint Enabled="false">
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Magnetron_Component</SubtypeId>
-			</Id>
-			<DisplayName>Magnetron Component</DisplayName>
-			<Icon>..\1259182705\Textures\GUI\Icons\component\AdvancedReactorBundle.dds</Icon>
-			<Prerequisites>
-				<Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
-				<Item Amount="26" TypeId="Ingot" SubtypeId="Cobalt" />
-				<Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
-				<Item Amount="19" TypeId="Ingot" SubtypeId="Silver" />
-				<Item Amount="5" TypeId="Ingot" SubtypeId="Gold" />
-			</Prerequisites>
-			<Result Amount="1" TypeId="Component" SubtypeId="Magnetron_Component" />
-			<BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
-		</Blueprint>
 
-		<Blueprint >
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>DeuteriumOreToIngot</SubtypeId>
-			</Id>
-			<DisplayName>1 Litre Deuterium Container</DisplayName>
-			<Icon>..\1259182705\Textures\GUI\Icons\ingot\HH2o.dds</Icon>
-			<Prerequisites>
-				<Item Amount="1" TypeId="Ore" SubtypeId="Deuterium" />
-			</Prerequisites>
-			<Result Amount="0.8" TypeId="Ingot" SubtypeId="DeuteriumContainer" />
-			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
-		</Blueprint> 
-<!--
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>HeavyH2oOreToIngot</SubtypeId>
-			</Id>
-			<DisplayName>Deuterium Container</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\HH2o.dds</Icon>
-			<Prerequisites>
-				<Item Amount="0.1" TypeId="Ore" SubtypeId="Uranium" />
-				<Item Amount="100" TypeId="Ore" SubtypeId="Ice" />
-			</Prerequisites>
-			<Result Amount="1" TypeId="Ingot" SubtypeId="DeuteriumContainer" />
-			
-			<BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
-		</Blueprint>
--->
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>StonetoDeuterium</SubtypeId>
-			</Id>
-			<DisplayName>1 Litre Deuterium Container</DisplayName>
-			<Icon>..\1259182705\Textures\GUI\Icons\ingot\HH2o.dds</Icon>
-			<Prerequisites>
-				<Item Amount="1500" TypeId="Ore" SubtypeId="Stone" />
-			</Prerequisites>
-			<Result Amount="0.15" TypeId="Ingot" SubtypeId="DeuteriumContainer" />
-			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
-		</Blueprint>	
 
 		<Blueprint Enabled="false">
 			<Id>
@@ -77,18 +17,6 @@
 			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
 		</Blueprint>
 
-		<!--   <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>DepletedWaterIceToOxyGen</SubtypeId>
-      </Id>
-      <DisplayName>Depleted Water Ice</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_H2O_ice.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Ore" SubtypeId="DepletedWaterIce" />
-      </Prerequisites>
-      <Result Amount="0.9" TypeId="Ore" SubtypeId="Ice" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint> -->
+	
 	</Blueprints>
 </Definitions>
