@@ -57,7 +57,7 @@
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                 <Class>Boxes</Class>
-                <Class>Components</Class>
+                <Class>Components0</Class>
                 <Class>EliteTools</Class>
                 <Class>BuildPlanner</Class>
                 <Class>EliteConsumables</Class>
@@ -136,7 +136,7 @@
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                 <Class>Boxes</Class>
-                <Class>Components</Class>
+                <Class>Components0</Class>
                 <Class>EliteTools</Class>
                 <Class>BuildPlanner</Class>
                 <Class>EliteConsumables</Class>
@@ -215,8 +215,8 @@
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                 <Class>Boxes</Class>
-                <Class>Components</Class>
-                <Class>Components2</Class>
+                <Class>Components0</Class>
+                <Class>Components1</Class>
                 <Class>EliteTools</Class>
                 <Class>BuildPlanner</Class>
                 <Class>EliteConsumables</Class>
@@ -294,8 +294,8 @@
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                 <Class>Boxes</Class>
-                <Class>Components</Class>
-                <Class>Components2</Class>
+                <Class>Components0</Class>
+                <Class>Components1</Class>
                 <Class>EliteTools</Class>
                 <Class>BuildPlanner</Class>
                 <Class>EliteConsumables</Class>
@@ -373,9 +373,9 @@
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                 <Class>Boxes</Class>
-                <Class>Components</Class>
+                <Class>Components0</Class>
+                <Class>Components1</Class>
                 <Class>Components2</Class>
-                <Class>Components3</Class>
                 <Class>EliteTools</Class>
                 <Class>BuildPlanner</Class>
                 <Class>EliteConsumables</Class>
@@ -453,9 +453,9 @@
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                 <Class>Boxes</Class>
-                <Class>Components</Class>
+                <Class>Components0</Class>
+                <Class>Components1</Class>
                 <Class>Components2</Class>
-                <Class>Components3</Class>
                 <Class>EliteTools</Class>
                 <Class>BuildPlanner</Class>
                 <Class>EliteConsumables</Class>
@@ -534,10 +534,10 @@
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                 <Class>Boxes</Class>
-                <Class>Components</Class>
+                <Class>Components0</Class>
+                <Class>Components1</Class>
                 <Class>Components2</Class>
                 <Class>Components3</Class>
-                <Class>Components4</Class>
                 <Class>EliteTools</Class>
                 <Class>BuildPlanner</Class>
                 <Class>EliteConsumables</Class>
@@ -614,10 +614,10 @@
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
                  <Class>Boxes</Class>
-                <Class>Components</Class>
+                <Class>Components0</Class>
+                <Class>Components1</Class>
                 <Class>Components2</Class>
                 <Class>Components3</Class>
-                <Class>Components4</Class>
                 <Class>EliteTools</Class>
                 <Class>BuildPlanner</Class>
                 <Class>EliteConsumables</Class>

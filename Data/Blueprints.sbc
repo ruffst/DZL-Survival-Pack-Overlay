@@ -3,9 +3,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Blueprints>
-		<!--Ore Verarbeitung-->
+<!--Ore Verarbeitung-->
+<!--StoneOreToIngot-->
 		<Blueprint>
-			<!--StoneOreToIngot-->
+			
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>StoneOreToIngot</SubtypeId>
@@ -20,12 +21,12 @@
 				<Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
 				<Item Amount="2.4" TypeId="Ingot" SubtypeId="Nickel" />
 				<Item Amount="4.0" TypeId="Ingot" SubtypeId="Silicon" />
-				<!-- <Item Amount="2.4" TypeId="Ingot" SubtypeId="Copper" /><Item Amount="4" TypeId="Ingot" SubtypeId="Lead" />-->
 			</Results>
 			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 		</Blueprint>
+<!--StoneOreToIngotBasic-->
 		<Blueprint>
-			<!--StoneOreToIngotBasic-->
+			
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>StoneOreToIngotBasic</SubtypeId>
@@ -40,15 +41,12 @@
 				<Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
 				<Item Amount="0.24" TypeId="Ingot" SubtypeId="Nickel" />
 				<Item Amount="0.3" TypeId="Ingot" SubtypeId="Silicon" />
-				<!--<Item Amount="1.24" TypeId="Ingot" SubtypeId="Copper" />
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Lead" />-->
-       			<Item Amount="0.07" TypeId="Ingot" SubtypeId="Cobalt" />
 			</Results>
 			<Priority>1000</Priority>
 			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
 		</Blueprint>
+<!--CopperOreToIngot-->
 		<Blueprint>
-			<!--CopperOreToIngot-->
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>CopperOreToIngot</SubtypeId>
@@ -64,8 +62,8 @@
 			</Results>
 			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
 		</Blueprint>
+<!--AluminumOreToIngot -->
 		<Blueprint>
-			<!--AluminumOreToIngot -->
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>AluminumOreToIngot</SubtypeId>
@@ -81,8 +79,8 @@
 			</Results>
 			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
 		</Blueprint>
+<!-- LeadOreToIngot -->
 		<Blueprint>
-			<!-- LeadOreToIngot -->
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>LeadOreToIngot</SubtypeId>
@@ -98,8 +96,8 @@
 			</Results>
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
 		</Blueprint>
+<!--TitaniumOreToIngot -->
 		<Blueprint>
-			<!--TitaniumOreToIngot -->
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>TitaniumOreToIngot</SubtypeId>
@@ -110,13 +108,12 @@
 				<Item Amount="100" TypeId="Ore" SubtypeId="Titanium" />
 			</Prerequisites>
 			<Results>
-				<!--<Item Amount="30" TypeId="Ingot" SubtypeId="Stone" />-->
 				<Item Amount="40" TypeId="Ingot" SubtypeId="Titanium" />
 			</Results>
 			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
 		</Blueprint>
+<!--PenetratiumOreToIngot -->
 		<Blueprint>
-			<!--PenetratiumOreToIngot -->
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>PenetratiumOreToIngot</SubtypeId>
@@ -132,8 +129,9 @@
 			</Results>
 			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 		</Blueprint>
+<!-- AluminiumPlate-->
 		<Blueprint>
-			<!-- AluminiumPlate-->
+
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>AluminiumPlate</SubtypeId>
@@ -147,8 +145,9 @@
 			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
+<!--TitanPlate-->
 		<Blueprint>
-			<!--TitanPlate-->
+
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>TitanPlate</SubtypeId>
@@ -162,8 +161,9 @@
 			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
+<!--Bleiplatte-->
 		<Blueprint>
-			<!--Bleiplatte-->
+
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>Bleiplatte</SubtypeId>
@@ -177,8 +177,8 @@
 			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
+<!--Kupferdraht-->
 		<Blueprint>
-			<!--Kupferdraht-->
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>Kupferdraht</SubtypeId>
@@ -192,8 +192,8 @@
 			<Result Amount="1" TypeId="Component" SubtypeId="Kupferdraht" />
 			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
 		</Blueprint>
+<!--PenetratiumToPlate-->
 		<Blueprint>
-			<!--PenetratiumToPlate-->
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>PenetratiumToPlate</SubtypeId>
@@ -331,7 +331,6 @@
 			<DisplayName>Common Tech</DisplayName>
 			<Icon>Textures\tech2x.dds</Icon>
 			<Prerequisites>
-				<Item Amount="60" TypeId="Ingot" SubtypeId="Iron"/>
 				<Item Amount="50" TypeId="Ingot" SubtypeId="Silicon"/>
 				<Item Amount="60" TypeId="Ingot" SubtypeId="Nickel"/>
 				<Item Amount="45" TypeId="Ingot" SubtypeId="Cobalt"/>
@@ -339,7 +338,8 @@
 				<Item Amount="25" TypeId="Ingot" SubtypeId="Gold"/>
 				<Item Amount="15" TypeId="Ingot" SubtypeId="Uranium"/>
 				<Item Amount="15" TypeId="Ingot" SubtypeId="Platinum"/>
-
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
+        		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech2x"/>
 			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
@@ -352,17 +352,14 @@
 			<DisplayName>Rare Tech</DisplayName>
 			<Icon>Textures\tech4x.dds</Icon>
 			<Prerequisites>
-				<Item Amount="80" TypeId="Ingot" SubtypeId="Iron"/>
-				<Item Amount="60" TypeId="Ingot" SubtypeId="Silicon"/>
-				<Item Amount="40" TypeId="Ingot" SubtypeId="Nickel"/>
-				<Item Amount="45" TypeId="Ingot" SubtypeId="Cobalt"/>
 				<Item Amount="40" TypeId="Ingot" SubtypeId="Silver"/>
-				<Item Amount="20" TypeId="Ingot" SubtypeId="Gold"/>
-				<Item Amount="18" TypeId="Ingot" SubtypeId="Uranium"/>
-				<Item Amount="14" TypeId="Ingot" SubtypeId="Platinum"/>
-				<Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
-        		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
-				<Item Amount="14" TypeId="Component" SubtypeId="Tech2x"/>
+				<Item Amount="35" TypeId="Ingot" SubtypeId="Gold"/>
+				<Item Amount="60" TypeId="Ingot" SubtypeId="Copper"/>
+        		<Item Amount="50" TypeId="Ingot" SubtypeId="Lead"/>
+				<Item Amount="25" TypeId="Ingot" SubtypeId="Uranium"/>
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Platinum"/>
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
+				<Item Amount="10" TypeId="Component" SubtypeId="Tech2x"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
 			<BaseProductionTimeInSeconds>80</BaseProductionTimeInSeconds>
@@ -375,11 +372,7 @@
 			<DisplayName>Exotic Tech</DisplayName>
 			<Icon>Textures\tech8x.dds</Icon>
 			<Prerequisites>
-				<Item Amount="120" TypeId="Ingot" SubtypeId="Iron"/>
-				<Item Amount="90" TypeId="Ingot" SubtypeId="Silicon"/>
-				<Item Amount="95" TypeId="Ingot" SubtypeId="Nickel"/>
-				<Item Amount="66" TypeId="Ingot" SubtypeId="Cobalt"/>
-				<Item Amount="55" TypeId="Ingot" SubtypeId="Silver"/>
+
 				<Item Amount="46" TypeId="Ingot" SubtypeId="Gold"/>
 				<Item Amount="32" TypeId="Ingot" SubtypeId="Uranium"/>
 				<Item Amount="25" TypeId="Ingot" SubtypeId="Platinum"/>
@@ -387,7 +380,7 @@
         		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
 				<Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
 				<Item Amount="10" TypeId="Ingot" SubtypeId="Titanium"/>
-				<Item Amount="14" TypeId="Component" SubtypeId="Tech4x"/>
+				<Item Amount="8" TypeId="Component" SubtypeId="Tech4x"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
 			<BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
@@ -400,19 +393,33 @@
 			<DisplayName>Elite Tech</DisplayName>
 			<Icon>Textures\tech16x.dds</Icon>
 			<Prerequisites>
-				<Item Amount="120" TypeId="Ingot" SubtypeId="Iron"/>
-				<Item Amount="90" TypeId="Ingot" SubtypeId="Silicon"/>
-				<Item Amount="95" TypeId="Ingot" SubtypeId="Nickel"/>
-				<Item Amount="66" TypeId="Ingot" SubtypeId="Cobalt"/>
-				<Item Amount="55" TypeId="Ingot" SubtypeId="Silver"/>
-				<Item Amount="46" TypeId="Ingot" SubtypeId="Gold"/>
-				<Item Amount="32" TypeId="Ingot" SubtypeId="Uranium"/>
-				<Item Amount="25" TypeId="Ingot" SubtypeId="Platinum"/>
-				<Item Amount="50" TypeId="Ingot" SubtypeId="Copper"/>
-        		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
-				<Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
+				<Item Amount="40" TypeId="Ingot" SubtypeId="Uranium"/>
+				<Item Amount="30" TypeId="Ingot" SubtypeId="Platinum"/>
+				<Item Amount="70" TypeId="Ingot" SubtypeId="Copper"/>
+        		<Item Amount="60" TypeId="Ingot" SubtypeId="Lead"/>
+				<Item Amount="40" TypeId="Ingot" SubtypeId="Aluminium"/>
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Titanium"/>
 				<Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>
-				<Item Amount="14" TypeId="Component" SubtypeId="Tech8x"/>
+				<Item Amount="6" TypeId="Component" SubtypeId="Tech8x"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Tech16x"/>
+			<BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Tech16x</SubtypeId>
+			</Id>
+			<DisplayName>Elite Tech</DisplayName>
+			<Icon>Textures\tech16x.dds</Icon>
+			<Prerequisites>
+				<Item Amount="40" TypeId="Ingot" SubtypeId="Platinum"/>
+				<Item Amount="80" TypeId="Ingot" SubtypeId="Copper"/>
+        		<Item Amount="80" TypeId="Ingot" SubtypeId="Lead"/>
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Aluminium"/>
+				<Item Amount="30" TypeId="Ingot" SubtypeId="Titanium"/>
+				<Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>
+				<Item Amount="4" TypeId="Component" SubtypeId="Tech8x"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech16x"/>
 			<BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
