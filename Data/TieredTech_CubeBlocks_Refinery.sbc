@@ -73,13 +73,12 @@
 			<OperationalPowerConsumption>0.56</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>IngotsVanilla</Class>
-				<Class>Ingots0</Class>
+				<Class>Ingots1</Class>
 			</BlueprintClasses>
 			<RefineSpeed>1.3</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-			<Center x="1" y="0" z="0" />
 			<DamagedSound>ParticleHeavyMech</DamagedSound>
 			<PrimarySound>BlockRafinery</PrimarySound>
 			<ActionSound>BlockRafineryProcess</ActionSound>
@@ -148,13 +147,12 @@
 			<OperationalPowerConsumption>0.56</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>IngotsVanilla</Class>
-				<Class>Ingots0</Class>
+				<Class>Ingots1</Class>
 			</BlueprintClasses>
 			<RefineSpeed>1.3</RefineSpeed>
 			<MaterialEfficiency>1.0</MaterialEfficiency>
 			<OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
 			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-			<Center x="1" y="0" z="0" />
 			<DamagedSound>ParticleHeavyMech</DamagedSound>
 			<PrimarySound>BlockRafinery</PrimarySound>
 			<ActionSound>BlockRafineryProcess</ActionSound>
@@ -223,8 +221,8 @@
 			<OperationalPowerConsumption>0.9800</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>IngotsVanilla</Class>
-				<Class>Ingots0</Class>
 				<Class>Ingots1</Class>
+				<Class>Ingots2</Class>
 			</BlueprintClasses>
 			<RefineSpeed>2.2750</RefineSpeed>
 			<MaterialEfficiency>1.05</MaterialEfficiency>
@@ -311,8 +309,8 @@
 			<OperationalPowerConsumption>0.9800</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>IngotsVanilla</Class>
-				<Class>Ingots0</Class>
 				<Class>Ingots1</Class>
+				<Class>Ingots2</Class>
 			</BlueprintClasses>
 			<RefineSpeed>2.2750</RefineSpeed>
 			<MaterialEfficiency>1.05</MaterialEfficiency>
@@ -388,9 +386,9 @@
 			<OperationalPowerConsumption>1.7150</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>IngotsVanilla</Class>
-				<Class>Ingots0</Class>
 				<Class>Ingots1</Class>
 				<Class>Ingots2</Class>
+				<Class>Ingots3</Class>
 			</BlueprintClasses>
 			<RefineSpeed>3.9813</RefineSpeed>
 			<MaterialEfficiency>1.1</MaterialEfficiency>
@@ -478,9 +476,9 @@
 			<OperationalPowerConsumption>1.7150</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>IngotsVanilla</Class>
-				<Class>Ingots0</Class>
 				<Class>Ingots1</Class>
 				<Class>Ingots2</Class>
+				<Class>Ingots3</Class>
 			</BlueprintClasses>
 			<RefineSpeed>3.9813</RefineSpeed>
 			<MaterialEfficiency>1.1</MaterialEfficiency>
@@ -556,10 +554,10 @@
 			<OperationalPowerConsumption>3.0013</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>IngotsVanilla</Class>
-				<Class>Ingots0</Class>
 				<Class>Ingots1</Class>
 				<Class>Ingots2</Class>
 				<Class>Ingots3</Class>
+				<Class>Ingots4</Class>
 			</BlueprintClasses>
 			<RefineSpeed>6.9672</RefineSpeed>
 			<MaterialEfficiency>1.2</MaterialEfficiency>
@@ -647,10 +645,10 @@
 			<OperationalPowerConsumption>3.0013</OperationalPowerConsumption>
 			<BlueprintClasses>
 				<Class>IngotsVanilla</Class>
-				<Class>Ingots0</Class>
 				<Class>Ingots1</Class>
 				<Class>Ingots2</Class>
 				<Class>Ingots3</Class>
+				<Class>Ingots4</Class>
 			</BlueprintClasses>
 			<RefineSpeed>6.9672</RefineSpeed>
 			<MaterialEfficiency>1.2</MaterialEfficiency>

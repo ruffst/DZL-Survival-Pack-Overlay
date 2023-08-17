@@ -1,10 +1,7 @@
 <?xml version="1.0"?>
-<Definitions
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<BlueprintClasses>
 		<Class>
-
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Boxes</SubtypeId>
@@ -17,7 +14,6 @@
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 		</Class>
 		<Class>
-
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>IngotsVanilla</SubtypeId>
@@ -30,14 +26,13 @@
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
 		</Class>
-		<Class>
-
+		<Class Enabled="false">
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
-				<SubtypeId>Ingots0</SubtypeId>
+				<SubtypeId>Ingots</SubtypeId>
 			</Id>
-			<DisplayName>Ingots Tier 0</DisplayName>
-			<Description>Ingots Tier 0</Description>
+			<DisplayName>Ingots</DisplayName>
+			<Description>Ingots</Description>
 			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
 			<HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
 			<FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
@@ -45,7 +40,6 @@
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
 		</Class>
 		<Class>
-
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Ingots1</SubtypeId>
@@ -59,7 +53,6 @@
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
 		</Class>
 		<Class>
-
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Ingots2</SubtypeId>
@@ -73,7 +66,6 @@
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
 		</Class>
 		<Class>
-
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Ingots3</SubtypeId>
@@ -87,7 +79,6 @@
 			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
 		</Class>
 		<Class>
-
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Ingots4</SubtypeId>
@@ -125,7 +116,6 @@
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 		</Class>
 		<Class>
-
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Components1</SubtypeId>
@@ -138,7 +128,6 @@
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 		</Class>
 		<Class>
-
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Components2</SubtypeId>
@@ -151,7 +140,6 @@
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 		</Class>
 		<Class>
-
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
 				<SubtypeId>Components3</SubtypeId>
@@ -163,7 +151,6 @@
 			<FocusIcon>Textures\GUI\Icons\buttons\highlight_T3.dds</FocusIcon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 		</Class>
-
 		<Class>
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
@@ -190,11 +177,11 @@
 		<Entry Class="IngotsVanilla" BlueprintSubtypeId="GoldOreToIngot" />
 		<Entry Class="IngotsVanilla" BlueprintSubtypeId="PlatinumOreToIngot" />
 		<Entry Class="IngotsVanilla" BlueprintSubtypeId="UraniumOreToIngot" />
-		<Entry Class="Ingots0" BlueprintSubtypeId="LeadOreToIngot" />
-		<Entry Class="Ingots0" BlueprintSubtypeId="CopperOreToIngot" />
-		<Entry Class="Ingots1" BlueprintSubtypeId="AluminumOreToIngot" />
-		<Entry Class="Ingots2" BlueprintSubtypeId="TitaniumOreToIngot" />
-		<Entry Class="Ingots3" BlueprintSubtypeId="PenetratiumOreToIngot" />
+		<Entry Class="Ingots1" BlueprintSubtypeId="LeadOreToIngot" />
+		<Entry Class="Ingots1" BlueprintSubtypeId="CopperOreToIngot" />
+		<Entry Class="Ingots2" BlueprintSubtypeId="AluminumOreToIngot" />
+		<Entry Class="Ingots3" BlueprintSubtypeId="TitaniumOreToIngot" />
+		<Entry Class="Ingots4" BlueprintSubtypeId="PenetratiumOreToIngot" />
     <!--Components -->
         <Entry Class="Components0" BlueprintSubtypeId="ConstructionComponent" />
 		<Entry Class="Components0" BlueprintSubtypeId="GirderComponent" />
