@@ -1,225 +1,241 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    
-<BlueprintClasses>
-        <Class>            <!--Ingots2-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Boxes</SubtypeId>
-            </Id>
-            <DisplayName>Ingot Boxes</DisplayName>
-            <Description>Ingot Boxes</Description>
-            <Icon>Textures\GUI\Icons\buttons\Boxes.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\buttons\highlight_Boxes.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\buttons\highlight_Boxes.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-        </Class>
-        <Class>            <!--Ingots1-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Ingots0</SubtypeId>
-            </Id>
-            <DisplayName>Ingots Tier 0</DisplayName>
-            <Description>Ingots Tier 0</Description>
-            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
-        </Class>
-        <Class>            <!--Ingots1-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Ingots1</SubtypeId>
-            </Id>
-            <DisplayName>Ingots Tier 1</DisplayName>
-            <Description>Ingots Tier 1</Description>
-            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
-        </Class>
-        <Class>            <!--Ingots2-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Ingots2</SubtypeId>
-            </Id>
-            <DisplayName>Ingots Tier 2</DisplayName>
-            <Description>Ingots Tier 2</Description>
-            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
-        </Class>
-        <Class>            <!--Ingots3-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Ingots3</SubtypeId>
-            </Id>
-            <DisplayName>Ingots Tier 3</DisplayName>
-            <Description>Ingots Tier 3</Description>
-            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
-        </Class>
-        <Class>            <!--Ingots4-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Ingots4</SubtypeId>
-            </Id>
-            <DisplayName>Ingots Elite Tier</DisplayName>
-            <Description>Ingots Elite Tier</Description>
-            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
-        </Class>
-        <Class Enabled="false">
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Components</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
-            <Description>Description_BlueprintClass_Components</Description>
-            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-        </Class>
-        <Class>
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Components0</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
-            <Description>Description_BlueprintClass_Components</Description>
-            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-        </Class>
-        <Class>            <!--Components1-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Components1</SubtypeId>
-            </Id>
-            <DisplayName>Components Tier 1</DisplayName>
-            <Description>Components Tier 1</Description>
-            <Icon>Textures\GUI\Icons\buttons\T1.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\buttons\highlight_T1.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\buttons\highlight_T1.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-        </Class>
-        <Class>            <!--Components2-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Components2</SubtypeId>
-            </Id>
-            <DisplayName>Components Tier 2</DisplayName>
-            <Description>Components Tier 2</Description>
-            <Icon>Textures\GUI\Icons\buttons\T2.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\buttons\highlight_T2.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\buttons\highlight_T2.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-        </Class>
-        <Class>            <!--Components3-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Components3</SubtypeId>
-            </Id>
-            <DisplayName>Components Tier 3</DisplayName>
-            <Description>Components Tier 3</Description>
-            <Icon>Textures\GUI\Icons\buttons\T3.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\buttons\highlight_T3.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\buttons\highlight_T3.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-        </Class>
-        <Class>            <!--Components3-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Components4</SubtypeId>
-            </Id>
-            <DisplayName>Components Elite Tier </DisplayName>
-            <Description>Components Elite Tier </Description>
-            <Icon>Textures\GUI\Icons\buttons\Elite.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\buttons\highlight_Elite.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\buttons\highlight_Elite.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
-        </Class>
-    </BlueprintClasses>
-    <BlueprintClassEntries>
+<Definitions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClasses>
+		<Class>
 
-       <!--Ingots-->  
-            <Entry Class="Ingots" BlueprintSubtypeId="StoneOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="IronOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="ScrapIngotToIronIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="NickelOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="CobaltOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="MagnesiumOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="SiliconOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="SilverOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="GoldOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="PlatinumOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="UraniumOreToIngot" />
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Boxes</SubtypeId>
+			</Id>
+			<DisplayName>Ingot Boxes</DisplayName>
+			<Description>Ingot Boxes</Description>
+			<Icon>Textures\GUI\Icons\buttons\Boxes.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\highlight_Boxes.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\highlight_Boxes.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+		</Class>
+		<Class>
 
-            <Entry Class="Ingots0" BlueprintSubtypeId="LeadOreToIngot" />
-            <Entry Class="Ingots0" BlueprintSubtypeId="CopperOreToIngot" />
-            <Entry Class="Ingots1" BlueprintSubtypeId="AluminumOreToIngot" />
-            <Entry Class="Ingots2" BlueprintSubtypeId="TitaniumOreToIngot" />       
-            <Entry Class="Ingots3" BlueprintSubtypeId="PenetratiumOreToIngot" />
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>IngotsVanilla</SubtypeId>
+			</Id>
+			<DisplayName>Ingots Vanilla</DisplayName>
+			<Description>Ingots Vanilla</Description>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
 
-            <Entry Class="Components0" BlueprintSubtypeId="ConstructionComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="GirderComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="MetalGrid" />
-            <Entry Class="Components0" BlueprintSubtypeId="InteriorPlate" />
-            <Entry Class="Components0" BlueprintSubtypeId="SteelPlate" />
-            <Entry Class="Components0" BlueprintSubtypeId="SmallTube" />
-            <Entry Class="Components0" BlueprintSubtypeId="LargeTube" />
-            <Entry Class="Components0" BlueprintSubtypeId="MotorComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="Display" />
-            <Entry Class="Components0" BlueprintSubtypeId="BulletproofGlass" />
-            <Entry Class="Components0" BlueprintSubtypeId="ComputerComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="ReactorComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="ThrustComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="GravityGeneratorComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="MedicalComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="RadioCommunicationComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="DetectorComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="ExplosivesComponent" />
-            <Entry Class="Components0" BlueprintSubtypeId="SolarCell" />
-            <Entry Class="Components0" BlueprintSubtypeId="PowerCell" />
-            <Entry Class="Components0" BlueprintSubtypeId="Superconductor" />
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Ingots0</SubtypeId>
+			</Id>
+			<DisplayName>Ingots Tier 0</DisplayName>
+			<Description>Ingots Tier 0</Description>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
 
-        <!--Components -->
-            <Entry Class="Components0" BlueprintSubtypeId="Tech2x" />
-            <Entry Class="Components1" BlueprintSubtypeId="Tech4x" />
-            <Entry Class="Components1" BlueprintSubtypeId="Bleiplatte" />
-            <Entry Class="Components1" BlueprintSubtypeId="Kupferdraht" />
-            <Entry Class="Components2" BlueprintSubtypeId="AluminiumPlate" />
-            <Entry Class="Components2" BlueprintSubtypeId="Tech8x" />
-            <Entry Class="Components2" BlueprintSubtypeId="TitanPlate" />
-            <Entry Class="Components3" BlueprintSubtypeId="PenetratiumToPlate" />
-            <Entry Class="Components3" BlueprintSubtypeId="Tech16x" />
-       
-        <!--Boxes -->
-            <Entry Class="Boxes" BlueprintSubtypeId="Cobalt_Box_Component" />
-            <Entry Class="Boxes" BlueprintSubtypeId="Iron_Box_Component" />
-            <Entry Class="Boxes" BlueprintSubtypeId="Silicon_Box_Component" />
-            <Entry Class="Boxes" BlueprintSubtypeId="Magnesium_Box_Component" />       
-            <Entry Class="Boxes" BlueprintSubtypeId="Nickel_Box_Component" />
-            <Entry Class="Boxes" BlueprintSubtypeId="Uranium_Box_Component" />
-            <Entry Class="Boxes" BlueprintSubtypeId="Platinum_Box_Component" />
-            <Entry Class="Boxes" BlueprintSubtypeId="Silver_Box_Box_Component" />
-            <Entry Class="Boxes" BlueprintSubtypeId="Gold_Box_Component" />
-		
-		<!--Blocks -->
-				
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Ingots1</SubtypeId>
+			</Id>
+			<DisplayName>Ingots Tier 1</DisplayName>
+			<Description>Ingots Tier 1</Description>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
 
-    </BlueprintClassEntries>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Ingots2</SubtypeId>
+			</Id>
+			<DisplayName>Ingots Tier 2</DisplayName>
+			<Description>Ingots Tier 2</Description>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Ingots3</SubtypeId>
+			</Id>
+			<DisplayName>Ingots Tier 3</DisplayName>
+			<Description>Ingots Tier 3</Description>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Ingots4</SubtypeId>
+			</Id>
+			<DisplayName>Ingots Elite Tier</DisplayName>
+			<Description>Ingots Elite Tier</Description>
+			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		<Class Enabled="false">
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Components</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+			<Description>Description_BlueprintClass_Components</Description>
+			<Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Components0</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+			<Description>Description_BlueprintClass_Components</Description>
+			<Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+		</Class>
+		<Class>
+
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Components1</SubtypeId>
+			</Id>
+			<DisplayName>Components Tier 1</DisplayName>
+			<Description>Components Tier 1</Description>
+			<Icon>Textures\GUI\Icons\buttons\T1.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\highlight_T1.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\highlight_T1.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+		</Class>
+		<Class>
+
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Components2</SubtypeId>
+			</Id>
+			<DisplayName>Components Tier 2</DisplayName>
+			<Description>Components Tier 2</Description>
+			<Icon>Textures\GUI\Icons\buttons\T2.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\highlight_T2.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\highlight_T2.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+		</Class>
+		<Class>
+
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Components3</SubtypeId>
+			</Id>
+			<DisplayName>Components Tier 3</DisplayName>
+			<Description>Components Tier 3</Description>
+			<Icon>Textures\GUI\Icons\buttons\T3.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\highlight_T3.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\highlight_T3.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+		</Class>
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Components4</SubtypeId>
+			</Id>
+			<DisplayName>Components Elite Tier </DisplayName>
+			<Description>Components Elite Tier </Description>
+			<Icon>Textures\GUI\Icons\buttons\Elite.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\highlight_Elite.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\highlight_Elite.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+		</Class>
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+	<!--Ingots-->
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="StoneOreToIngot" />
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="IronOreToIngot" />
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="NickelOreToIngot" />
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="CobaltOreToIngot" />
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="MagnesiumOreToIngot" />
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="SiliconOreToIngot" />
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="SilverOreToIngot" />
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="GoldOreToIngot" />
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="PlatinumOreToIngot" />
+		<Entry Class="IngotsVanilla" BlueprintSubtypeId="UraniumOreToIngot" />
+		<Entry Class="Ingots0" BlueprintSubtypeId="LeadOreToIngot" />
+		<Entry Class="Ingots0" BlueprintSubtypeId="CopperOreToIngot" />
+		<Entry Class="Ingots1" BlueprintSubtypeId="AluminumOreToIngot" />
+		<Entry Class="Ingots2" BlueprintSubtypeId="TitaniumOreToIngot" />
+		<Entry Class="Ingots3" BlueprintSubtypeId="PenetratiumOreToIngot" />
+    <!--Components -->
+        <Entry Class="Components0" BlueprintSubtypeId="ConstructionComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="GirderComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="MetalGrid" />
+		<Entry Class="Components0" BlueprintSubtypeId="InteriorPlate" />
+		<Entry Class="Components0" BlueprintSubtypeId="SteelPlate" />
+		<Entry Class="Components0" BlueprintSubtypeId="SmallTube" />
+		<Entry Class="Components0" BlueprintSubtypeId="LargeTube" />
+		<Entry Class="Components0" BlueprintSubtypeId="MotorComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="Display" />
+		<Entry Class="Components0" BlueprintSubtypeId="BulletproofGlass" />
+		<Entry Class="Components0" BlueprintSubtypeId="ComputerComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="ReactorComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="ThrustComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="GravityGeneratorComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="MedicalComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="RadioCommunicationComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="DetectorComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="ExplosivesComponent" />
+		<Entry Class="Components0" BlueprintSubtypeId="SolarCell" />
+		<Entry Class="Components0" BlueprintSubtypeId="PowerCell" />
+		<Entry Class="Components0" BlueprintSubtypeId="Superconductor" />
+		<Entry Class="Components0" BlueprintSubtypeId="Tech2x" />
+		<Entry Class="Components1" BlueprintSubtypeId="Tech4x" />
+		<Entry Class="Components1" BlueprintSubtypeId="Bleiplatte" />
+		<Entry Class="Components1" BlueprintSubtypeId="Kupferdraht" />
+		<Entry Class="Components2" BlueprintSubtypeId="AluminiumPlate" />
+		<Entry Class="Components2" BlueprintSubtypeId="Tech8x" />
+		<Entry Class="Components2" BlueprintSubtypeId="TitanPlate" />
+		<Entry Class="Components3" BlueprintSubtypeId="PenetratiumToPlate" />
+		<Entry Class="Components3" BlueprintSubtypeId="Tech16x" />
+	<!--Boxes -->
+		<Entry Class="Boxes" BlueprintSubtypeId="Cobalt_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Iron_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Silicon_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Magnesium_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Nickel_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Uranium_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Platinum_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Silver_Box_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Gold_Box_Component" />
+	<!--Blocks -->
+	</BlueprintClassEntries>
 </Definitions>

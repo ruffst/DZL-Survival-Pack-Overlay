@@ -1,50 +1,230 @@
 <?xml version="1.0"?>
-<Definitions
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Blueprints>
 <!--Ore Verarbeitung-->
-<!--StoneOreToIngot-->
-		<Blueprint>
-			
+		<Blueprint Enabled="false">
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>StoneOreToIngot</SubtypeId>
+				<SubtypeId>IcetoDeuterium</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Ingot_Iron</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+			<DisplayName>1 Litre Deuterium Container</DisplayName>
+			<Icon>..\1259182705\Textures\GUI\Icons\ingot\HH2o.dds</Icon>
 			<Prerequisites>
-				<Item Amount="500" TypeId="Ore" SubtypeId="Stone" />
+				<Item Amount="1500" TypeId="Ore" SubtypeId="Ice" />
 			</Prerequisites>
-			<Results>
-				<Item Amount="18" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
-				<Item Amount="2.4" TypeId="Ingot" SubtypeId="Nickel" />
-				<Item Amount="4.0" TypeId="Ingot" SubtypeId="Silicon" />
-			</Results>
-			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<Result Amount="0.15" TypeId="Ingot" SubtypeId="DeuteriumContainer" />
+			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
 		</Blueprint>
-<!--StoneOreToIngotBasic-->
-		<Blueprint>
-			
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>StoneOreToIngotBasic</SubtypeId>
-			</Id>
-			<DisplayName>DisplayName_Ingot_Iron</DisplayName>
-			<Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-			<Prerequisites>
-				<Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
-			</Prerequisites>
-			<Results>
-				<Item Amount="1.9" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
-				<Item Amount="0.24" TypeId="Ingot" SubtypeId="Nickel" />
-				<Item Amount="0.3" TypeId="Ingot" SubtypeId="Silicon" />
-			</Results>
-			<Priority>1000</Priority>
-			<BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
-		</Blueprint>
+      <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>StoneOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1000" TypeId="Ore" SubtypeId="Stone" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="14" TypeId="Ingot" SubtypeId="Stone" />
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="2.4" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="4.0" TypeId="Ingot" SubtypeId="Silicon" />
+            </Results>
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>StoneOreToIngotBasic</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <Prerequisites>
+                <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="1.4" TypeId="Ingot" SubtypeId="Stone" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.24" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="0.4" TypeId="Ingot" SubtypeId="Silicon" />
+            </Results>
+            <Priority>1000</Priority>
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>StoneOreToIngot_Deconstruction</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Gravel</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Stone" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+            </Results>
+            <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IronOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="0.7" TypeId="Ingot" SubtypeId="Iron" />
+            <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
+            <IsPrimary>true</IsPrimary>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>NickelOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_NickelIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="0.4" TypeId="Ingot" SubtypeId="Nickel" />
+            <BaseProductionTimeInSeconds>0.66</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CobaltOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_CobaltIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="0.3" TypeId="Ingot" SubtypeId="Cobalt" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MagnesiumOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MagnesiumPowder</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Magnesium" />
+            </Prerequisites>
+            <Result Amount="0.007" TypeId="Ingot" SubtypeId="Magnesium" />
+            <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SiliconOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SiliconWafer</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Silicon" />
+            </Prerequisites>
+            <Result Amount="0.7" TypeId="Ingot" SubtypeId="Silicon" />
+            <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SilverOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_SilverIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Silver" />
+            </Prerequisites>
+            <Result Amount="0.1" TypeId="Ingot" SubtypeId="Silver" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GoldOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_GoldIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Gold" />
+            </Prerequisites>
+            <Result Amount="0.01" TypeId="Ingot" SubtypeId="Gold" />
+            <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PlatinumOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_PlatinumIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Platinum" />
+            </Prerequisites>
+            <Result Amount="0.005" TypeId="Ingot" SubtypeId="Platinum" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>UraniumOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="0.01" TypeId="Ingot" SubtypeId="Uranium" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ScrapIngotToIronIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Scrap" />
+            </Prerequisites>
+            <Result Amount="0.8" TypeId="Ingot" SubtypeId="Iron" />
+            <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>ScrapToIronIngot</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+            <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Scrap" />
+            </Prerequisites>
+            <Result Amount="0.8" TypeId="Ingot" SubtypeId="Iron" />
+            <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>IceToOxygen</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Ice" />
+            </Prerequisites>
+            <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+            <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+        </Blueprint>
 <!--CopperOreToIngot-->
 		<Blueprint>
 			<Id>
