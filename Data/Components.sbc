@@ -7,7 +7,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>Bleiplatte</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Component_Bleiplatte</DisplayName>
+      <DisplayName>Bleiplatte</DisplayName>
       <Icon>Textures\GUI\Icons\component\lead_plate.dds</Icon>
       <Size>
         <X>0.5</X>
@@ -35,7 +35,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>TitanPlate</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Component_TitanPlate</DisplayName>
+      <DisplayName>TitanPlate</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_plate.dds</Icon>
       <Size>
         <X>0.5</X>
@@ -63,7 +63,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>PenetratiumPlate</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Component_PenetratiumPlate</DisplayName>
+      <DisplayName>PenetratiumPlate</DisplayName>
       <Icon>Textures\GUI\Icons\component\penetratium_plate.dds</Icon>
       <Size>
         <X>0.5</X>
@@ -119,7 +119,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>Kupferdraht</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Component_Kupferdraht</DisplayName>
+      <DisplayName>Kupferdraht</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_wire.dds</Icon>
       <Size>
         <X>0.5</X>
