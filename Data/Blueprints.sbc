@@ -237,8 +237,8 @@
 				<Item Amount="1" TypeId="Ore" SubtypeId="Copper" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="0.6" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="0.2" TypeId="Ingot" SubtypeId="Copper" />
+				<Item Amount="0.06" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.1" TypeId="Ingot" SubtypeId="Copper" />
 			</Results>
 			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
 		</Blueprint>
@@ -254,9 +254,9 @@
 				<Item Amount="1" TypeId="Ore" SubtypeId="Aluminium" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="0.5" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="0.1" TypeId="Ore" SubtypeId="Ice" />
-				<Item Amount="0.2" TypeId="Ingot" SubtypeId="Aluminium" />
+				<Item Amount="0.05" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.01" TypeId="Ore" SubtypeId="Ice" />
+				<Item Amount="0.05" TypeId="Ingot" SubtypeId="Aluminium" />
 			</Results>
 			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
 		</Blueprint>
@@ -272,8 +272,8 @@
 				<Item Amount="1" TypeId="Ore" SubtypeId="Lead" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="0.6" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="0.2" TypeId="Ingot" SubtypeId="Lead" />
+				<Item Amount="0.06" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.1" TypeId="Ingot" SubtypeId="Lead" />
 			</Results>
 			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
 		</Blueprint>
@@ -289,8 +289,8 @@
 				<Item Amount="1" TypeId="Ore" SubtypeId="Titanium" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="0.2" TypeId="Ore" SubtypeId="Ice" />
-				<Item Amount="0.4" TypeId="Ingot" SubtypeId="Titanium" />
+				<Item Amount="0.02" TypeId="Ore" SubtypeId="Ice" />
+				<Item Amount="0.04" TypeId="Ingot" SubtypeId="Titanium" />
 			</Results>
 			<BaseProductionTimeInSeconds>16</BaseProductionTimeInSeconds>
 		</Blueprint>
@@ -306,8 +306,8 @@
 				<Item Amount="1" TypeId="Ore" SubtypeId="Penetratium" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="0.1" TypeId="Ore" SubtypeId="Ice" />
-				<Item Amount="0.05" TypeId="Ingot" SubtypeId="Penetratium" />
+				<Item Amount="0.01" TypeId="Ore" SubtypeId="Ice" />
+				<Item Amount="0.01" TypeId="Ingot" SubtypeId="Penetratium" />
 			</Results>
 			<BaseProductionTimeInSeconds>32</BaseProductionTimeInSeconds>
 		</Blueprint>
