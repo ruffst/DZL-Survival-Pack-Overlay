@@ -234,13 +234,13 @@
 			<DisplayName>DisplayName_Ingot_Copper</DisplayName>
 			<Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
 			<Prerequisites>
-				<Item Amount="10" TypeId="Ore" SubtypeId="Copper" />
+				<Item Amount="1" TypeId="Ore" SubtypeId="Copper" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="4" TypeId="Ingot" SubtypeId="Copper" />
+				<Item Amount="0.6" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.2" TypeId="Ingot" SubtypeId="Copper" />
 			</Results>
-			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
 		</Blueprint>
 <!--AluminumOreToIngot -->
 		<Blueprint>
@@ -251,13 +251,14 @@
 			<DisplayName>DisplayName_Ingot_Aluminium</DisplayName>
 			<Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
 			<Prerequisites>
-				<Item Amount="10" TypeId="Ore" SubtypeId="Aluminium" />
+				<Item Amount="1" TypeId="Ore" SubtypeId="Aluminium" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="3" TypeId="Ingot" SubtypeId="Aluminium" />
+				<Item Amount="0.5" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.1" TypeId="Ore" SubtypeId="Ice" />
+				<Item Amount="0.2" TypeId="Ingot" SubtypeId="Aluminium" />
 			</Results>
-			<BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
 		</Blueprint>
 <!-- LeadOreToIngot -->
 		<Blueprint>
@@ -268,13 +269,13 @@
 			<DisplayName>DisplayName_Ingot_Lead</DisplayName>
 			<Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
 			<Prerequisites>
-				<Item Amount="100" TypeId="Ore" SubtypeId="Lead" />
+				<Item Amount="1" TypeId="Ore" SubtypeId="Lead" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="60" TypeId="Ingot" SubtypeId="Stone" />
-				<Item Amount="40" TypeId="Ingot" SubtypeId="Lead" />
+				<Item Amount="0.6" TypeId="Ingot" SubtypeId="Stone" />
+				<Item Amount="0.2" TypeId="Ingot" SubtypeId="Lead" />
 			</Results>
-			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
 		</Blueprint>
 <!--TitaniumOreToIngot -->
 		<Blueprint>
@@ -285,12 +286,13 @@
 			<DisplayName>Titanium</DisplayName>
 			<Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
 			<Prerequisites>
-				<Item Amount="100" TypeId="Ore" SubtypeId="Titanium" />
+				<Item Amount="1" TypeId="Ore" SubtypeId="Titanium" />
 			</Prerequisites>
 			<Results>
-				<Item Amount="40" TypeId="Ingot" SubtypeId="Titanium" />
+				<Item Amount="0.2" TypeId="Ore" SubtypeId="Ice" />
+				<Item Amount="0.4" TypeId="Ingot" SubtypeId="Titanium" />
 			</Results>
-			<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>16</BaseProductionTimeInSeconds>
 		</Blueprint>
 <!--PenetratiumOreToIngot -->
 		<Blueprint>
@@ -307,7 +309,7 @@
 				<Item Amount="0.1" TypeId="Ore" SubtypeId="Ice" />
 				<Item Amount="0.05" TypeId="Ingot" SubtypeId="Penetratium" />
 			</Results>
-			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>32</BaseProductionTimeInSeconds>
 		</Blueprint>
 <!-- AluminiumPlate-->
 		<Blueprint>
@@ -322,7 +324,7 @@
 				<Item Amount="3" TypeId="Ingot" SubtypeId="Aluminium" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="AluminiumPlate" />
-			<BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>160</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 <!--TitanPlate-->
@@ -338,7 +340,7 @@
 				<Item Amount="21" TypeId="Ingot" SubtypeId="Titanium" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="TitanPlate" />
-			<BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>180</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 <!--Bleiplatte-->
@@ -354,7 +356,7 @@
 				<Item Amount="18" TypeId="Ingot" SubtypeId="Lead" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Bleiplatte" />
-			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>140</BaseProductionTimeInSeconds>
 			<IsPrimary>true</IsPrimary>
 		</Blueprint>
 <!--Kupferdraht-->
@@ -370,7 +372,7 @@
 				<Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Kupferdraht" />
-			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
 		</Blueprint>
 <!--PenetratiumToPlate-->
 		<Blueprint>
@@ -384,7 +386,7 @@
 				<Item Amount="10" TypeId="Ingot" SubtypeId="Penetratium" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="PenetratiumPlate" />
-			<BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
 			<Id>
