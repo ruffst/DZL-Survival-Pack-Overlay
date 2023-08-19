@@ -146,7 +146,7 @@
             <TypeId>Component</TypeId>
             <SubtypeId>Tech16x</SubtypeId>
         </Id>
-        <DisplayName>Admin Tech</DisplayName>
+        <DisplayName>Elite Tech</DisplayName>
         <Icon>Textures\tech16x.dds</Icon>
         <Size>
             <X>1</X>

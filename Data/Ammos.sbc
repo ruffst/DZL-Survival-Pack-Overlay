@@ -83,7 +83,66 @@
             <MissileRicochetProbability>0.5</MissileRicochetProbability>
         </MissileProperties>
     </Ammo>
-
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+        <Id>
+            <TypeId>AmmoDefinition</TypeId>
+            <SubtypeId>LargeCalibreShellLead</SubtypeId>
+        </Id>
+        <BasicProperties>
+            <DesiredSpeed>700</DesiredSpeed>
+            <SpeedVariance>0</SpeedVariance>
+            <MaxTrajectory>3000</MaxTrajectory>
+            <IsExplosive>true</IsExplosive>
+            <BackkickForce>150000</BackkickForce>
+            <PhysicalMaterial>LargeShell</PhysicalMaterial>
+            <ExplosiveDamageMultiplier>1.2</ExplosiveDamageMultiplier>
+        </BasicProperties>
+        <MissileProperties>
+            <MissileMass>1000</MissileMass>
+            <MissileExplosionRadius>5</MissileExplosionRadius>
+            <MissileModelName>Models\Weapons\LargeCalibreShell.mwm</MissileModelName>
+            <MissileAcceleration>0</MissileAcceleration>
+            <MissileInitialSpeed>700</MissileInitialSpeed>
+            <MissileSkipAcceleration>false</MissileSkipAcceleration>
+            <MissileExplosionDamage>0</MissileExplosionDamage>
+            <MissileHealthPool>17000</MissileHealthPool>
+            <MissileTrailEffect>LargeCalibreGun_Tracer</MissileTrailEffect>
+            <MissileGravityEnabled>true</MissileGravityEnabled>
+            <MissileRicochetAngle>70</MissileRicochetAngle>
+            <MissileRicochetDamage>7000</MissileRicochetDamage>
+            <MissileRicochetProbability>0.5</MissileRicochetProbability>
+        </MissileProperties>
+    </Ammo>
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+        <Id>
+            <TypeId>AmmoDefinition</TypeId>
+            <SubtypeId>MediumCalibreShellLead</SubtypeId>
+        </Id>
+        <BasicProperties>
+            <DesiredSpeed>700</DesiredSpeed>
+            <SpeedVariance>0</SpeedVariance>
+            <MaxTrajectory>1800</MaxTrajectory>
+            <IsExplosive>true</IsExplosive>
+            <BackkickForce>50000</BackkickForce>
+            <PhysicalMaterial>MediumShell</PhysicalMaterial>
+            <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+        </BasicProperties>
+        <MissileProperties>
+            <MissileMass>400</MissileMass>
+            <MissileExplosionRadius>3</MissileExplosionRadius>
+            <MissileModelName>Models\Weapons\MediumCalibreShell.mwm</MissileModelName>
+            <MissileAcceleration>0</MissileAcceleration>
+            <MissileInitialSpeed>700</MissileInitialSpeed>
+            <MissileSkipAcceleration>false</MissileSkipAcceleration>
+            <MissileExplosionDamage>0</MissileExplosionDamage>
+            <MissileHealthPool>4000</MissileHealthPool>
+            <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+            <MissileGravityEnabled>true</MissileGravityEnabled>
+            <MissileRicochetAngle>65</MissileRicochetAngle>
+            <MissileRicochetDamage>2000</MissileRicochetDamage>
+            <MissileRicochetProbability>0.5</MissileRicochetProbability>
+        </MissileProperties>
+    </Ammo>
     <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
         <Id>
             <TypeId>AmmoDefinition</TypeId>

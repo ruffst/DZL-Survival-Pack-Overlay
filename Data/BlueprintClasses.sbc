@@ -232,5 +232,8 @@
 
 		<Entry Class="Components1" BlueprintSubtypeId="LargeRailgunAmmoLead" />
 		<Entry Class="Components1" BlueprintSubtypeId="SmallRailgunAmmoLead" />
+
+		<Entry Class="Components1" BlueprintSubtypeId="LargeCalibreAmmoLead" />
+		<Entry Class="Components1" BlueprintSubtypeId="MediumCalibreAmmoLead" />
 	</BlueprintClassEntries>
 </Definitions>

@@ -2,6 +2,58 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <AmmoMagazines>
+       <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>LargeCalibreAmmoLead</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_LargeCalibreAmmo</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\LargeCalibreShellLead.dds</Icon>
+            <Size>
+                <X>1.2</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+            </Size>
+            <Mass>100</Mass>
+            <Volume>100</Volume>
+            <Model>Models\Weapons\LargeCalibreShell.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="LargeCalibreShellLead" />
+
+            <MinimumOfferAmount>50</MinimumOfferAmount>
+            <MaximumOfferAmount>500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>MediumCalibreAmmoLead</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_MediumCalibreAmmo</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\MediumCalibreShellLead.dds</Icon>
+            <Size>
+                <X>0.25</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>30</Volume>
+            <Model>Models\Weapons\MediumCalibreShell.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="MediumCalibreShellLead" />
+
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>

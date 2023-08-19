@@ -2,6 +2,198 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Weapons>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>LargeCalibreTurret</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="80" ShootSoundName="WepLargeCalibreShot" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="LargeCalibreAmmo" />
+            </AmmoMagazines>
+            <ReloadTime>12000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="muzzle_missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="muzzle_missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>LargeCalibreGun</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="80" ShootSoundName="WepLargeCalibreShot" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.15</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.15</DeviateShotAngleAiming>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="LargeCalibreAmmo" />
+            </AmmoMagazines>
+            <ReloadTime>12000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="muzzle_missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-3.5"/>
+            </Effects>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>MediumCalibreTurret</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="180" ShootSoundName="WepMediumCalibreShot" FlightSoundName="MediumShellFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.35</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.35</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>10000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>15000</MaximumTimeBetweenIdleRotationsMs>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="MediumCalibreAmmo" />
+            </AmmoMagazines>
+            <ReloadTime>6000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_Left" Particle="Muzzle_Flash_MediumCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_Right" Particle="Muzzle_Flash_MediumCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>SmallMediumCalibreTurret</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="200" ShootSoundName="WepMediumCalibreShot" FlightSoundName="MediumShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.5</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.5</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>7000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>10000</MaximumTimeBetweenIdleRotationsMs>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="MediumCalibreAmmo" />
+            </AmmoMagazines>
+            <ReloadTime>6000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile" Particle="Muzzle_Flash_MediumCalibre" Loop="false" InstantStop="false" OffsetX="0" OffsetY="0.08" OffsetZ="-2.2" />
+            </Effects>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>SmallMediumCalibreGun</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="200" ShootSoundName="WepMediumCalibreShot" FlightSoundName="MediumShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.2</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.2</DeviateShotAngleAiming>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="MediumCalibreAmmo" />
+            </AmmoMagazines>
+            <ReloadTime>6000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile" Particle="Muzzle_Flash_MediumCalibre" Loop="false" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-2"/>
+            </Effects>
+        </Weapon>
+
+       <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>LargeCalibreTurret</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="80" ShootSoundName="WepLargeCalibreShot" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="LargeCalibreAmmo" />
+                <AmmoMagazine Subtype="LargeCalibreAmmoLead" />
+            </AmmoMagazines>
+            <ReloadTime>12000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="muzzle_missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="muzzle_missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>LargeCalibreGun</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="80" ShootSoundName="WepLargeCalibreShot" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.15</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.15</DeviateShotAngleAiming>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="LargeCalibreAmmo" />
+                <AmmoMagazine Subtype="LargeCalibreAmmoLead" />
+            </AmmoMagazines>
+            <ReloadTime>12000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="muzzle_missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-3.5"/>
+            </Effects>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>MediumCalibreTurret</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="180" ShootSoundName="WepMediumCalibreShot" FlightSoundName="MediumShellFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.35</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.35</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>10000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>15000</MaximumTimeBetweenIdleRotationsMs>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="MediumCalibreAmmo" />
+                <AmmoMagazine Subtype="MediumCalibreAmmoLead" />
+            </AmmoMagazines>
+            <ReloadTime>6000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_Left" Particle="Muzzle_Flash_MediumCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_Right" Particle="Muzzle_Flash_MediumCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>SmallMediumCalibreTurret</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="200" ShootSoundName="WepMediumCalibreShot" FlightSoundName="MediumShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.5</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.5</DeviateShotAngleAiming>
+            <MinimumTimeBetweenIdleRotationsMs>7000</MinimumTimeBetweenIdleRotationsMs>
+            <MaximumTimeBetweenIdleRotationsMs>10000</MaximumTimeBetweenIdleRotationsMs>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="MediumCalibreAmmo" />
+                <AmmoMagazine Subtype="MediumCalibreAmmoLead" />
+            </AmmoMagazines>
+            <ReloadTime>6000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile" Particle="Muzzle_Flash_MediumCalibre" Loop="false" InstantStop="false" OffsetX="0" OffsetY="0.08" OffsetZ="-2.2" />
+            </Effects>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>SmallMediumCalibreGun</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="200" ShootSoundName="WepMediumCalibreShot" FlightSoundName="MediumShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.2</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.2</DeviateShotAngleAiming>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="MediumCalibreAmmo" />
+                <AmmoMagazine Subtype="MediumCalibreAmmoLead" />
+            </AmmoMagazines>
+            <ReloadTime>6000</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile" Particle="Muzzle_Flash_MediumCalibre" Loop="false" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-2"/>
+            </Effects>
+        </Weapon>
+
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>

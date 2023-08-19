@@ -33,7 +33,42 @@
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LargeCalibreAmmo" />
             <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
         </Blueprint>
+       	<Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MediumCalibreAmmoLead</SubtypeId>
+            </Id>
+            <DisplayName>MediumCalibreAmmoLead</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\MediumCalibreShellLead.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="1.2" TypeId="Ingot" SubtypeId="Magnesium" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Lead" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="MediumCalibreAmmoLead" />
+            <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+        </Blueprint>
 
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeCalibreAmmoLead</SubtypeId>
+            </Id>
+            <DisplayName>LargeCalibreAmmoLead</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\LargeCalibreShellLead.dds</Icon>
+            <Prerequisites>
+                <Item Amount="60" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Uranium" />
+				<Item Amount="15" TypeId="Ingot" SubtypeId="Copper" />
+				<Item Amount="25" TypeId="Ingot" SubtypeId="Lead" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LargeCalibreAmmoLead" />
+            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+        </Blueprint>
         <Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
@@ -46,6 +81,7 @@
                 <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
                 <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
                 <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+				<Item Amount="15" TypeId="Ingot" SubtypeId="Copper" />
 				<Item Amount="25" TypeId="Ingot" SubtypeId="Lead" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LargeRailgunAmmoLead" />
@@ -64,6 +100,7 @@
                 <Item Amount="0.5" TypeId="Ingot" SubtypeId="Nickel" />
                 <Item Amount="5" TypeId="Ingot" SubtypeId="Silicon" />
                 <Item Amount="0.2" TypeId="Ingot" SubtypeId="Uranium" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="Copper" />
 				<Item Amount="5.0" TypeId="Ingot" SubtypeId="Lead" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SmallRailgunAmmoLead" />
@@ -141,7 +178,7 @@
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>Lead_NATO_25x184mmMagazine</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Item_NATO_25x184mm_lead</DisplayName>
+			<DisplayName>Lead_NATO_25x184mmMagazine</DisplayName>
 			<Icon>Textures\GUI\Icons\ammo\Lead_Ammo_Box.dds</Icon>
 			<Prerequisites>
 				<Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
@@ -159,7 +196,7 @@
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>Pene_NATO_25x184mmMagazine</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_Item_NATO_25x184mm_pene</DisplayName>
+			<DisplayName>Penetration_NATO_25x184mmMagazine</DisplayName>
 			<Icon>Textures\GUI\Icons\ammo\Ammo_Box_pene.dds</Icon>
 			<Prerequisites>
 				<Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
@@ -216,7 +253,7 @@
                 <TypeId>BlueprintDefinition</TypeId>
                 <SubtypeId>PeneMissile200mm</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_Missile200mm_pene</DisplayName>
+            <DisplayName>Misslie Rocket Penetration</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\Small_Rocket_pene.dds</Icon>
             <Prerequisites>
                 <Item Amount="35" TypeId="Ingot" SubtypeId="Iron" />
