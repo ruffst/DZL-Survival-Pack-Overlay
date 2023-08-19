@@ -15,6 +15,19 @@
 			<Result Amount="0.15" TypeId="Ingot" SubtypeId="DeuteriumContainer" />
 			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
 		</Blueprint>
+		<Blueprint>      
+		<Id>
+			<TypeId>BlueprintDefinition</TypeId>
+			<SubtypeId>ScrapIngotToIronIngot</SubtypeId>
+		</Id>
+		<DisplayName>DisplayName_Ore_Scrap</DisplayName>
+		<Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+		<Prerequisites>
+			<Item Amount="100" TypeId="Ore" SubtypeId="Scrap" />
+		</Prerequisites>
+			<Result Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+		<BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+		</Blueprint>
       <Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
