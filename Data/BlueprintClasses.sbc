@@ -168,7 +168,6 @@
 	<!--Ingots-->
 		<Entry Class="IngotsVanilla" BlueprintSubtypeId="StoneOreToIngot" />
 		<Entry Class="IngotsVanilla" BlueprintSubtypeId="IronOreToIngot" />
-		<Entry Class="IngotsVanilla" BlueprintSubtypeId="ScrapIngotToIronIngot" />
 		<Entry Class="IngotsVanilla" BlueprintSubtypeId="NickelOreToIngot" />
 		<Entry Class="IngotsVanilla" BlueprintSubtypeId="CobaltOreToIngot" />
 		<Entry Class="IngotsVanilla" BlueprintSubtypeId="MagnesiumOreToIngot" />
@@ -178,6 +177,7 @@
 		<Entry Class="IngotsVanilla" BlueprintSubtypeId="PlatinumOreToIngot" />
 		<Entry Class="IngotsVanilla" BlueprintSubtypeId="UraniumOreToIngot" />
 		<Entry Class="Ingots1" BlueprintSubtypeId="LeadOreToIngot" />
+		<Entry Class="Ingots1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
 		<Entry Class="Ingots1" BlueprintSubtypeId="CopperOreToIngot" />
 		<Entry Class="Ingots2" BlueprintSubtypeId="AluminumOreToIngot" />
 		<Entry Class="Ingots3" BlueprintSubtypeId="TitaniumOreToIngot" />
@@ -223,6 +223,14 @@
 		<Entry Class="Boxes" BlueprintSubtypeId="Platinum_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Silver_Box_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Gold_Box_Component" />
-	<!--Blocks -->
+	<!--Ammo -->
+		<Entry Class="Components1" BlueprintSubtypeId="LeadMissile200mm" />
+		<Entry Class="Components3" BlueprintSubtypeId="PeneMissile200mm" />
+		
+		<Entry Class="Components1" BlueprintSubtypeId="Lead_NATO_25x184mmMagazine" />
+		<Entry Class="Components3" BlueprintSubtypeId="Pene_NATO_25x184mmMagazine" />
+
+		<Entry Class="Components1" BlueprintSubtypeId="LargeRailgunAmmoLead" />
+		<Entry Class="Components1" BlueprintSubtypeId="SmallRailgunAmmoLead" />
 	</BlueprintClassEntries>
 </Definitions>
