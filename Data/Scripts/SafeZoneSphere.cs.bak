@@ -20,19 +20,20 @@ namespace SafeZoneCap
 
      public class Globals
     {
-        public static readonly bool Debug = true;
         public static bool modificationsComplete = false;  
-        public static bool PropertyChanged = true;           
-        public static bool debug = false;   
-        public static bool allowChangeShape = true;
-        public static float maxSafeZoneRadius = 80;
         public static bool configLoaded = false;
+        public static bool PropertyChanged = true;    
+        public static float frame = 10;       
+        public static bool debug = true;   
+        public static bool allowChangeShape = false;
+        public static float maxSafeZoneRadius = 80;
+
     }
 
 
 #region CONFIG
 
-    public class Logger
+    public class SZLogger
     {
         private const string LOGFILE = "SafeZoneCap.log";
         
@@ -46,10 +47,10 @@ namespace SafeZoneCap
                     StringBuilder existingContent = new StringBuilder();
 
                     // Check if the file exists
-                    if (MyAPIGateway.Utilities.FileExistsInLocalStorage(LOGFILE, typeof(Logger)))
+                    if (MyAPIGateway.Utilities.FileExistsInLocalStorage(LOGFILE, typeof(SZLogger)))
                     {
                         // Read existing content if the file exists
-                        using (var reader = MyAPIGateway.Utilities.ReadFileInLocalStorage(LOGFILE, typeof(Logger)))
+                        using (var reader = MyAPIGateway.Utilities.ReadFileInLocalStorage(LOGFILE, typeof(SZLogger)))
                         {
                             string line;
                             while ((line = reader.ReadLine()) != null)
@@ -61,7 +62,7 @@ namespace SafeZoneCap
                     else
                     {
                         // Create the file if it does not exist
-                        using (var writer = MyAPIGateway.Utilities.WriteFileInLocalStorage(LOGFILE, typeof(Logger)))
+                        using (var writer = MyAPIGateway.Utilities.WriteFileInLocalStorage(LOGFILE, typeof(SZLogger)))
                         {
                             writer.Write(string.Empty);
                         }
@@ -71,68 +72,60 @@ namespace SafeZoneCap
                     existingContent.AppendLine(timestamp + ": " + text);
 
                     // Write combined content back to the file
-                    using (var writer = MyAPIGateway.Utilities.WriteFileInLocalStorage(LOGFILE, typeof(Logger)))
+                    using (var writer = MyAPIGateway.Utilities.WriteFileInLocalStorage(LOGFILE, typeof(SZLogger)))
                     {
                         writer.Write(existingContent.ToString());
                     }
                 }
             catch (Exception ex)
                 {
-                    MyAPIGateway.Utilities.ShowNotification("Logger Error: " + ex.Message, 5000, MyFontEnum.Red);
+                    MyAPIGateway.Utilities.ShowNotification("SZLogger Error: " + ex.Message, 5000, MyFontEnum.Red);
                 }
             }
 
         }
     }
-    public class MyConfig
+    public class MySZConfig
     {
         private const string FILE = "SafeZoneCap.cfg";
         
-
-        //options
-
-                
-        public static void InitMyConfig()
-        {
-            if (!Load())
-            {
-                Save();
-                Load();
-                Globals.configLoaded = true;
-            }
-        }
-
-        private static bool Load()
+        public static void Load()
         {
             try
             {
-                if (MyAPIGateway.Utilities.FileExistsInLocalStorage(FILE, typeof(MyConfig)))
+                if (MyAPIGateway.Utilities.FileExistsInLocalStorage(FILE, typeof(MySZConfig)))
                 {
-                    var file = MyAPIGateway.Utilities.ReadFileInLocalStorage(FILE, typeof(MyConfig));
+                    var file = MyAPIGateway.Utilities.ReadFileInLocalStorage(FILE, typeof(MySZConfig));
                     ReadSettings(file);
                     file.Close();
-                    return true;
+                    SZLogger.Log("Load Default-Settings loaded");
+                } else {
+                    Save();
                 }
+                Globals.configLoaded = true;
             }
            catch (Exception ex)
             {
-                Logger.Log("Error in Load: " + ex.Message);
+                SZLogger.Log("Load Error in Load: " + ex.Message);
+                Globals.configLoaded = false;
             }
-            return false;
+
+            
         }
 
         private static void Save()
         {
             try
             {
-                var file = MyAPIGateway.Utilities.WriteFileInLocalStorage(FILE, typeof(MyConfig));
+                var file = MyAPIGateway.Utilities.WriteFileInLocalStorage(FILE, typeof(MySZConfig));
                 file.Write(GetSettingsString());
                 file.Flush();
                 file.Close();
+                SZLogger.Log("Save Default-Settings saved");
             }
            catch (Exception ex)
             {
-                Logger.Log("Error in Load: " + ex.Message);
+                SZLogger.Log("Save Error in Load: " + ex.Message);
             }
         }
 
@@ -140,12 +133,16 @@ namespace SafeZoneCap
 
 
         private static string GetSettingsString()
-        {
+        {   
             var str = new StringBuilder();
 
             str.Append("allow-change-shape=").Append(Globals.allowChangeShape).AppendLine();
             str.Append("max-safezone-radius=").Append(Globals.maxSafeZoneRadius).AppendLine();
             str.Append("debug=").Append(Globals.debug).AppendLine();
+
+            SZLogger.Log("GetSettingsString Globals.allowChangeShape" + Globals.allowChangeShape.ToString());
+            SZLogger.Log("GetSettingsString Globals.maxSafeZoneRadius" + Globals.maxSafeZoneRadius.ToString());
+            SZLogger.Log("GetSettingsString Globals.debug" + Globals.debug.ToString());
 
             return str.ToString();
         }
@@ -179,11 +176,11 @@ namespace SafeZoneCap
                             break;
                     }
                 }
-                Logger.Log("ReadSettings");
+                SZLogger.Log("ReadSettings completed");
             }
            catch (Exception ex)
             {
-                Logger.Log("Error in Load: " + ex.Message);
+                SZLogger.Log("ReadSettings Error in Load: " + ex.Message);
             }
         }
     }
@@ -203,25 +200,35 @@ namespace SafeZoneCap
 
         public override void Init(MyObjectBuilder_EntityBase objectBuilder)
         {
-            if (!Globals.configLoaded) MyConfig.InitMyConfig();
+            //if (!Globals.configLoaded) MySZConfig.InitMySZConfig();
+
+            //if (!Globals.configLoaded) MySZConfig.Load();
 
             base.Init(objectBuilder);
             m_objectBuilder = objectBuilder;
             myBlock = Entity as IMySafeZoneBlock;
 
-            Logger.Log("Entity: " + (Entity != null ? Entity.ToString() : "null"));
-            Logger.Log("Entity Type: " + Entity.GetType().FullName);
-            
+            MySZConfig.Load();
+
+            //SZLogger.Log("Entity: " + (Entity != null ? Entity.ToString() : "null"));
+            //SZLogger.Log("Entity Type: " + Entity.GetType().FullName);
+            SZLogger.Log("Init Done: " + Entity.GetType().FullName);
             NeedsUpdate = MyEntityUpdateEnum.BEFORE_NEXT_FRAME;
+            ModifyControlsAndProperties(); 
         }
         public override void UpdateOnceBeforeFrame()
         {
-            if (myBlock?.CubeGrid?.Physics == null)
-            {
-                return; // ignore non-SafeZoneGenerators, physics-less grids and whatever other cases would cause any of those things to be null
+            Globals.frame = Globals.frame -1;
+            if (Globals.frame <= 0) {
+                if (myBlock?.CubeGrid?.Physics == null)
+                {
+                    return; 
+                }
+
+                ModifyControlsAndProperties();      // initial disabling of property and setup for UI changes
+                Globals.frame =10;
             }
 
-            ModifyControlsAndProperties();      // initial disabling of property and setup for UI changes
 
             NeedsUpdate = MyEntityUpdateEnum.EACH_FRAME;
         }
@@ -235,10 +242,13 @@ namespace SafeZoneCap
 
             Globals.modificationsComplete = true;
 
-            ChangeValues();
             MyAPIGateway.TerminalControls.CustomControlGetter -= TerminalControls_CustomControlGetter;      // in case it's already registered
             MyAPIGateway.TerminalControls.CustomControlGetter += TerminalControls_CustomControlGetter;
 
+            ChangeValues();
+            myBlock.PropertiesChanged -= OnPropertiesChanged;      // in case it's already registered
+            myBlock.PropertiesChanged += OnPropertiesChanged;
+            
         }
 
         static void TerminalControls_CustomControlGetter(IMyTerminalBlock block, List<IMyTerminalControl> controls)
@@ -254,23 +264,22 @@ namespace SafeZoneCap
                 IMyTerminalControl sliderY = controls.Find(x4 => (x4.Id == "SafeZoneYSlider"));
                 IMyTerminalControl sliderZ = controls.Find(x5 => (x5.Id == "SafeZoneZSlider"));
 
-
                
                 if (Globals.allowChangeShape)
                 {
-                    control_shape.Enabled = (b) => true; 
-                    slider.Enabled = (b) => true; 
-                    sliderX.Enabled = (b) => true; 
-                    sliderY.Enabled = (b) => true;
-                    sliderZ.Enabled = (b) => true;
+                    if (control_shape != null) control_shape.Enabled = (b) => true; 
+                    if (slider != null) slider.Enabled = (b) => true; 
+                    if (sliderX != null) sliderX.Enabled = (b) => true; 
+                    if (sliderY != null) sliderY.Enabled = (b) => true;
+                    if (sliderZ != null) sliderZ.Enabled = (b) => true;
                 }
                 else
                 {
-                    control_shape.Enabled = (b) => false; 
-                    slider.Enabled = (b) => false; 
-                    sliderX.Enabled = (b) => false; 
-                    sliderY.Enabled = (b) => false;
-                    sliderZ.Enabled = (b) => false;
+                    if (control_shape != null) control_shape.Enabled = (b) => false; 
+                    if (slider != null) slider.Enabled = (b) => false; 
+                    if (sliderX != null) sliderX.Enabled = (b) => false; 
+                    if (sliderY != null) sliderY.Enabled = (b) => false;
+                    if (sliderZ != null) sliderZ.Enabled = (b) => false;
                 }
                 
             }
@@ -282,7 +291,21 @@ namespace SafeZoneCap
             ChangeValueFloat("SafeZoneZSlider", Globals.maxSafeZoneRadius);
 
         }
+        static void OnPropertiesChanged(IMyTerminalBlock block)
+        {
+            Globals.PropertyChanged = true;
 
+        }
+        public override void UpdateBeforeSimulation()
+        {
+            // if something changed the property, change it back
+            if (Globals.PropertyChanged)
+            {
+
+                ChangeValues();
+                Globals.PropertyChanged = false;
+            }
+        }
         public void LogBlockProperties ()
         {
   
@@ -294,7 +317,7 @@ namespace SafeZoneCap
             // Log the properties
             foreach (var property in properties)
             {
-                Logger.Log(property.Id.ToString());
+                SZLogger.Log(property.Id.ToString());
             }
         }
         public void ChangeValueFloat(string propertyID, float value)
@@ -302,24 +325,21 @@ namespace SafeZoneCap
             try
             {
                 float currentvalue = myBlock.GetValueFloat(propertyID);
-                Logger.Log("Current " + propertyID + " value:" + currentvalue);
-                
-                
-                myBlock.SetValueFloat(propertyID, value);
-                    
-                
-
-                Logger.Log("SafeZone_PropertiesChanged completed for " + propertyID );
+                if (currentvalue != value) {
+                    SZLogger.Log("Current " + propertyID + " value:" + currentvalue);
+                    myBlock.SetValueFloat(propertyID, value);   
+                }
 
             }catch (Exception ex)
             {
-                Logger.Log("Exception in OnPropertiesChanged: " + ex.Message + "\n" + ex.StackTrace);
+                SZLogger.Log("Exception in OnPropertiesChanged: " + ex.Message + "\n" + ex.StackTrace);
             }
         }
 
         public override void MarkForClose()
         {
             MyAPIGateway.TerminalControls.CustomControlGetter -= TerminalControls_CustomControlGetter;
+            myBlock.PropertiesChanged -= OnPropertiesChanged;
         }
     }
 
