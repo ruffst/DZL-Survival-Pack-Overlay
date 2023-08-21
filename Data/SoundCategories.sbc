@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SoundCategories>
+	<SoundCategory>
+      <Id>
+        <TypeId>SoundCategoryDefinition</TypeId>
+        <SubtypeId>MusicCategory</SubtypeId>
+      </Id>
+      <Sounds>
+
+
+        <SoundDesc Id="KautschMusic_1" SoundName="Pradox - Alone in Space" />
+        <SoundDesc Id="KautschMusic_2" SoundName="Pradox - Endless nights" />
+
+      </Sounds>
+    </SoundCategory>
+  </SoundCategories>
+</Definitions>

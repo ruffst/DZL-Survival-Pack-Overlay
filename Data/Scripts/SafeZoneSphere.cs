@@ -25,7 +25,7 @@ namespace SafeZoneCap
         public static bool PropertyChanged = true;           
         public static bool debug = false;   
         public static bool allowChangeShape = true;
-        public static float maxSafeZoneRadius = 40;
+        public static float maxSafeZoneRadius = 80;
         public static bool configLoaded = false;
     }
 
@@ -195,8 +195,7 @@ namespace SafeZoneCap
 #region SAFEZONE CAP
 
 
-
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_SafeZoneBlock), false, new string[] { "SafeZoneBlock","SafeZoneBlock2x","SafeZoneBlock4x","SafeZoneBlock8x"})]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_SafeZoneBlock), false, new string[] { "SafeZoneBlock"})]
     public class SafeZoneLogic : MyGameLogicComponent
     {
         private IMySafeZoneBlock myBlock;
@@ -236,50 +235,44 @@ namespace SafeZoneCap
 
             Globals.modificationsComplete = true;
 
+            ChangeValues();
             MyAPIGateway.TerminalControls.CustomControlGetter -= TerminalControls_CustomControlGetter;      // in case it's already registered
             MyAPIGateway.TerminalControls.CustomControlGetter += TerminalControls_CustomControlGetter;
 
-            ChangeValues();
-
-            myBlock.PropertiesChanged -= OnPropertiesChanged;      // in case it's already registered
-            myBlock.PropertiesChanged += OnPropertiesChanged;
         }
 
-        static void OnPropertiesChanged(IMyTerminalBlock block)
-        {
-            Globals.PropertyChanged = true;
-        }
-        public override void UpdateBeforeSimulation()
-        {
-            // if something changed the property, change it back
-            if (Globals.PropertyChanged)
-            {
-                ChangeValues();
-                Globals.PropertyChanged = false;
-            }
-        }
         static void TerminalControls_CustomControlGetter(IMyTerminalBlock block, List<IMyTerminalControl> controls)
         {
-            //Logger.Instance.LogDebug("TerminalControls_CustomControlGetter");
 
             if (block is IMySafeZoneBlock)
             {
                 string subtype = (block as IMySafeZoneBlock).BlockDefinition.SubtypeId;
 
-                IMyTerminalControl control_shape = controls.Find(x => (x.Id == "SafeZoneShapeCombo"));
-                if (control_shape != null)
+                IMyTerminalControl control_shape = controls.Find(x1 => (x1.Id == "SafeZoneShapeCombo"));
+                IMyTerminalControl slider = controls.Find(x2 => (x2.Id == "SafeZoneSlider"));
+                IMyTerminalControl sliderX = controls.Find(x3 => (x3.Id == "SafeZoneXSlider"));
+                IMyTerminalControl sliderY = controls.Find(x4 => (x4.Id == "SafeZoneYSlider"));
+                IMyTerminalControl sliderZ = controls.Find(x5 => (x5.Id == "SafeZoneZSlider"));
+
+
+               
+                if (Globals.allowChangeShape)
                 {
-                    if (Globals.allowChangeShape)
-                    {
-                        control_shape.Enabled = (b) => true; // Always enabled
-                        control_shape.Visible = (b) => true; // Always visible
-                    }
-                    else
-                    {
-                        control_shape.Enabled = (b) => false; // Always disabled
-                        control_shape.Visible = (b) => true; // Always visible
-                    }
+                    control_shape.Enabled = (b) => true; 
+                    slider.Enabled = (b) => true; 
+                    sliderX.Enabled = (b) => true; 
+                    sliderY.Enabled = (b) => true;
+                    sliderZ.Enabled = (b) => true;
                 }
+                else
+                {
+                    control_shape.Enabled = (b) => false; 
+                    slider.Enabled = (b) => false; 
+                    sliderX.Enabled = (b) => false; 
+                    sliderY.Enabled = (b) => false;
+                    sliderZ.Enabled = (b) => false;
+                }
+                
             }
         }
         public void ChangeValues(){
@@ -287,6 +280,7 @@ namespace SafeZoneCap
             ChangeValueFloat("SafeZoneXSlider", Globals.maxSafeZoneRadius);
             ChangeValueFloat("SafeZoneYSlider", Globals.maxSafeZoneRadius);
             ChangeValueFloat("SafeZoneZSlider", Globals.maxSafeZoneRadius);
+
         }
 
         public void LogBlockProperties ()
@@ -310,24 +304,22 @@ namespace SafeZoneCap
                 float currentvalue = myBlock.GetValueFloat(propertyID);
                 Logger.Log("Current " + propertyID + " value:" + currentvalue);
                 
-                if (currentvalue > value){
-                    myBlock.SetValueFloat(propertyID, value);
-                    Logger.Log("SafeZone_PropertiesChanged completed for " + propertyID );
-                }
+                
+                myBlock.SetValueFloat(propertyID, value);
+                    
+                
+
+                Logger.Log("SafeZone_PropertiesChanged completed for " + propertyID );
 
             }catch (Exception ex)
             {
                 Logger.Log("Exception in OnPropertiesChanged: " + ex.Message + "\n" + ex.StackTrace);
             }
         }
-        public string GetPlayerNameFromIdentity(long id)
-        {
-            return MyVisualScriptLogicProvider.GetPlayersName(id);
-        }
+
         public override void MarkForClose()
         {
             MyAPIGateway.TerminalControls.CustomControlGetter -= TerminalControls_CustomControlGetter;
-            myBlock.PropertiesChanged -= OnPropertiesChanged;
         }
     }
 

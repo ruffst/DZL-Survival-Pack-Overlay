@@ -43,7 +43,7 @@
             <BlockPairName>SafeZone</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
-            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <BuildTimeSeconds>80</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
 
