@@ -49,6 +49,8 @@
 
             <!-- Safezone info -->
             <DefaultSafeZoneRadius>10</DefaultSafeZoneRadius>
+            <MaxSafeZoneRadius>100</MaxSafeZoneRadius>
+            <MinSafeZoneRadius>10</MinSafeZoneRadius>
             <SafeZoneActivationTimeS>15</SafeZoneActivationTimeS>
             <MaxSafeZonePowerDrainkW>650</MaxSafeZonePowerDrainkW>
             <MinSafeZonePowerDrainkW>1</MinSafeZonePowerDrainkW>

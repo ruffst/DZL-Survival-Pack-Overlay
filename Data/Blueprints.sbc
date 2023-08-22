@@ -1,6 +1,23 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Blueprints>
+		<Blueprint>      <!--ZoneChip-->
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ZoneChip</SubtypeId>
+			</Id>
+			<DisplayName>Zonechip</DisplayName>
+			<Icon>Textures\GUI\Icons\Items\ZoneChip_Item.dds</Icon>
+			<Prerequisites>
+        		<Item Amount="64" TypeId="Component" SubtypeId="Bleiplatte"/>
+				<Item Amount="32" TypeId="Component" SubtypeId="AluminiumPlate"/>
+				<Item Amount="16" TypeId="Component" SubtypeId="TitanPlate"/>
+				<Item Amount="8" TypeId="Component" SubtypeId="PenetratiumPlate"/>
+				<Item Amount="4" TypeId="Component" SubtypeId="Tech16x"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="ZoneChip" />
+			<BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+		</Blueprint>
        	<Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
