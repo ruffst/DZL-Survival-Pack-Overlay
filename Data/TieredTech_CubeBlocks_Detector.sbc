@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CubeBlocks>
+        <!--        Tier 16-->
+        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>LargeOreDetector16x</SubtypeId>
+            </Id>
+            <DisplayName>Epic Ore Detector</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\GUI\Icons\Cubes\detector16x.dds</Icon>
+            <Description>Description_OreDetector</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\OreDetector.mwm</Model>
+            <Components>
+                <Component Subtype="Tech8x" Count="40"/>
+                <Component Subtype="SteelPlate" Count="102"/>
+                <Component Subtype="Construction" Count="135"/>
+                 <Component Subtype="Kupferdraht" Count="268"/>
+                <Component Subtype="Motor" Count="17"/>
+                <Component Subtype="Computer" Count="85"/>
+                <Component Subtype="Detector" Count="68"/>
+                <Component Subtype="SteelPlate" Count="68"/>
+                <Component Subtype="PenetratiumPlate" Count="25"/>
+            </Components>
+            <CriticalComponent Subtype="Detector" Index="0"/>
+            <Center x="0" y="0" z="1"/>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OreDetectorConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>OreDetector16x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>102</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <MaximumRange>800</MaximumRange>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>40</PCU>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>SmallBlockOreDetector16x</SubtypeId>
+            </Id>
+            <DisplayName>Epic Ore Detector</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\GUI\Icons\Cubes\detector16x.dds</Icon>
+            <Description>Description_OreDetector</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Small\OreDetector.mwm</Model>
+            <Components>
+                <Component Subtype="Tech16x" Count="10"/>
+                <Component Subtype="SteelPlate" Count="14"/>
+                <Component Subtype="Construction" Count="17"/>
+                <Component Subtype="Kupferdraht" Count="68"/>
+                <Component Subtype="Motor" Count="14"/>
+                <Component Subtype="Computer" Count="14"/>
+                <Component Subtype="Detector" Count="14"/>
+                <Component Subtype="SteelPlate" Count="17"/>
+                <Component Subtype="PenetratiumPlate" Count="15"/>
+            </Components>
+            <CriticalComponent Subtype="Detector" Index="0"/>
+            <Center x="0" y="0" z="1"/>
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2"/>
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorConstruction_2.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>OreDetector16x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>48</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <MaximumRange>380</MaximumRange>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>40</PCU>
+        </Definition>
+    </CubeBlocks>
+    <BlockVariantGroups>
+            <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OreDetectorGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
+            <DisplayName>DisplayName_Block_OreDetector</DisplayName>
+            <Description>Description_OreDetector</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector2x" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector2x" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector4x" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector4x" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector8x" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector8x" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector16x" />
+                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector16x" />
+            </Blocks>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+    <ResearchBlocks>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector16x" />
+            <UnlockedByGroups>
+                <GroupSubtype>9</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector16x" />
+            <UnlockedByGroups>
+                <GroupSubtype>9</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+    </ResearchBlocks>
+</Definitions>

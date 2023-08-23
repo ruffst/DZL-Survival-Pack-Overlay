@@ -638,7 +638,219 @@
             </TieredUpdateTimes>
             <DLC>HeavyIndustry</DLC>
         </Definition>
-        
-
+<!--        Tier 16x-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+            <Id>
+                <TypeId>Assembler</TypeId>
+                <SubtypeId>LargeAssembler16x</SubtypeId>
+            </Id>
+            <DisplayName>Epic Assembler</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\GUI\Icons\Cubes\assembler16x.dds</Icon>
+            <Description>Description_Assembler</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Assembler.mwm</Model>
+            <Components>
+                <Component Subtype="Tech16x" Count="20"/>
+                <Component Subtype="SteelPlate" Count="805"/>
+                <Component Subtype="Construction" Count="470"/>
+                <Component Subtype="Kupferdraht" Count="268"/>
+                <Component Subtype="Motor" Count="168"/>
+                <Component Subtype="Display" Count="134"/>
+                <Component Subtype="MetalGrid" Count="134"/>
+                <Component Subtype="Computer" Count="1540"/>
+                <Component Subtype="PenetratiumPlate" Count="30"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Assembler16x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>270</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>19.3750</InventoryMaxVolume>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>8.48</OperationalPowerConsumption>
+            <AssemblySpeed>16</AssemblySpeed>
+            <BlueprintClasses>
+                <Class>LargeBlocks</Class>
+                <Class>SmallBlocks</Class>
+                <Class>Boxes</Class>
+                <Class>Components0</Class>
+                <Class>Components1</Class>
+                <Class>Components2</Class>
+                <Class>Components3</Class>
+                <Class>EliteTools</Class>
+                <Class>BuildPlanner</Class>
+                <Class>EliteConsumables</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockAssembler</PrimarySound>
+            <ActionSound>BlockAssemblerProcess</ActionSound>
+            <DestroyEffect>Explosion_Missile</DestroyEffect>
+            <DestroySound>WepSmallMissileExpl</DestroySound>
+            <PCU>40</PCU>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+       <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+            <Id>
+                <TypeId>Assembler</TypeId>
+                <SubtypeId>LargeAssemblerIndustrial16x</SubtypeId>
+            </Id>
+            <DisplayName>Epic Industrial Assembler</DisplayName>
+            <GuiVisible>false</GuiVisible>
+           <Icon>Textures\GUI\Icons\Cubes\AdvancedAssemblerIndustrial16x.dds</Icon>
+            <Description>Description_Assembler</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AdvancedAssemblerIndustrial.mwm</Model>
+            <Components>
+                <Component Subtype="Tech16x" Count="20"/>
+                <Component Subtype="SteelPlate" Count="805"/>
+                <Component Subtype="Construction" Count="470"/>
+                <Component Subtype="Kupferdraht" Count="268"/>
+                <Component Subtype="Motor" Count="168"/>
+                <Component Subtype="Display" Count="134"/>
+                <Component Subtype="MetalGrid" Count="134"/>
+                <Component Subtype="Computer" Count="1540"/>
+                <Component Subtype="PenetratiumPlate" Count="30"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1.1" />
+                <MountPoint Side="Front" StartX="0" StartY="1.1" EndX="1" EndY="2" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1.1" />
+                <MountPoint Side="Back" StartX="0" StartY="1.1" EndX="0.1" EndY="2" />
+                <MountPoint Side="Back" StartX="0.9" StartY="1.1" EndX="1" EndY="2" />
+                <MountPoint Side="Back" StartX="0.1" StartY="1.9" EndX="0.9" EndY="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="1" EndX="0.1" EndY="2" />
+                <MountPoint Side="Left" StartX="1.9" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Left" StartX="0.1" StartY="1.9" EndX="1.9" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedAssemblerIndustrialConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AssemblerIndustrial16x</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>270</BuildTimeSeconds>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <InventoryMaxVolume>19.375</InventoryMaxVolume>
+          <AssemblySpeed>16</AssemblySpeed>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+            <OperationalPowerConsumption>8.48</OperationalPowerConsumption>
+            <BlueprintClasses>
+                <Class>LargeBlocks</Class>
+                <Class>SmallBlocks</Class>
+                 <Class>Boxes</Class>
+                <Class>Components0</Class>
+                <Class>Components1</Class>
+                <Class>Components2</Class>
+                <Class>Components3</Class>
+                <Class>EliteTools</Class>
+                <Class>BuildPlanner</Class>
+                <Class>EliteConsumables</Class>
+            </BlueprintClasses>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <PrimarySound>BlockAssembler</PrimarySound>
+            <ActionSound>BlockAssemblerProcess</ActionSound>
+            <DestroyEffect>Explosion_Missile</DestroyEffect>
+            <DestroySound>WepSmallMissileExpl</DestroySound>
+            <PCU>40</PCU>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <TieredUpdateTimes>
+                <unsignedInt>60</unsignedInt>
+                <unsignedInt>120</unsignedInt>
+                <unsignedInt>240</unsignedInt>
+            </TieredUpdateTimes>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
     </CubeBlocks>
+
+
+
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AssemblerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+            <DisplayName>DisplayName_Block_Assembler</DisplayName>
+            <Description>Description_Assembler</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge2x" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit2x" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler2x" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial2x" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge4x" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit4x" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler4x" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial4x" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge8x" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit8x" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler8x" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial8x" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler16x" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial16x" />
+            </Blocks>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+    <ResearchBlocks>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler16x" />
+            <UnlockedByGroups>
+                <GroupSubtype>0</GroupSubtype>
+                <GroupSubtype>9</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial16x" />
+            <UnlockedByGroups>
+                <GroupSubtype>0</GroupSubtype>
+                <GroupSubtype>9</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+    </ResearchBlocks>
+
+ 
 </Definitions>

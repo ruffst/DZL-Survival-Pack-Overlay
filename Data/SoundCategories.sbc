@@ -7,11 +7,8 @@
         <SubtypeId>MusicCategory</SubtypeId>
       </Id>
       <Sounds>
-
-
         <SoundDesc Id="KautschMusic_1" SoundName="Pradox - Alone in Space" />
         <SoundDesc Id="KautschMusic_2" SoundName="Pradox - Endless nights" />
-
       </Sounds>
     </SoundCategory>
   </SoundCategories>
