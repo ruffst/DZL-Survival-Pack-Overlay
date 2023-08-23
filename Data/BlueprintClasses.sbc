@@ -224,6 +224,10 @@
 		<Entry Class="Boxes" BlueprintSubtypeId="Platinum_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Silver_Box_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Gold_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Copper_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Lead_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Aluminum_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Titan_Box_Component" />
 	<!--Ammo -->
 		<Entry Class="Components1" BlueprintSubtypeId="LeadMissile200mm" />
 		<Entry Class="Components3" BlueprintSubtypeId="PeneMissile200mm" />

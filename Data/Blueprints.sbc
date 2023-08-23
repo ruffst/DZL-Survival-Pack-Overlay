@@ -794,6 +794,58 @@
 		<Blueprint>
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Copper_Box_Component</SubtypeId>
+			</Id>
+			<DisplayName>Box Copper </DisplayName>
+			<Icon>Textures\copper_box.dds</Icon>
+			<Prerequisites>
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Copper" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Copper_Box" />
+			<BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Lead_Box_Component</SubtypeId>
+			</Id>
+			<DisplayName>Box Lead </DisplayName>
+			<Icon>Textures\lead_box.dds</Icon>
+			<Prerequisites>
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Lead" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Lead_Box" />
+			<BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Aluminum_Box_Component</SubtypeId>
+			</Id>
+			<DisplayName>Box Aluminum </DisplayName>
+			<Icon>Textures\aluminum_box.dds</Icon>
+			<Prerequisites>
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Aluminium" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Aluminum_Box" />
+			<BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Titan_Box_Component</SubtypeId>
+			</Id>
+			<DisplayName>Box Titan </DisplayName>
+			<Icon>Textures\titan_box.dds</Icon>
+			<Prerequisites>
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Titanium" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Titan_Box" />
+			<BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>Tech2x</SubtypeId>
 			</Id>
 			<DisplayName>Common Tech</DisplayName>
