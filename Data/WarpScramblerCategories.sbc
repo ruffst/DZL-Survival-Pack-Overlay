@@ -1,0 +1,21 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <!-- JumpDrive Interdictor Blocks -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Kautsch Tech</DisplayName>
+      <Name>Kautsch Tech</Name>
+      <StrictSearch>true</StrictSearch>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+        <string>WarpScrambler</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>

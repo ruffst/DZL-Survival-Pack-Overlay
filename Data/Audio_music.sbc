@@ -1,7 +1,21 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sounds>
-  
+      <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>Warp_Scrambler</SubtypeId>
+      </Id>
+      <Category>Warp Scrambler</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>1.5</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\Warpscrambler.wav</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
     <Sound>
         <Id>
           <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
