@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CubeBlocks>
+ 
+        <!--        Tier 16-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LargeBlockLargeContainer16x</SubtypeId>
+            </Id>
+            <DisplayName>Epic Large Cargo Container</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\GUI\Icons\Cubes\container_large16x.dds</Icon>
+            <Description>Description_LargeCargoContainer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+            <Components>
+                <Component Subtype="Tech16x" Count="25"/>
+                <Component Subtype="InteriorPlate" Count="2013"/>
+                <Component Subtype="Construction" Count="403"/>
+                <Component Subtype="MetalGrid" Count="181"/>
+                <Component Subtype="SmallTube" Count="303"/>
+                <Component Subtype="Motor" Count="168"/>
+                <Component Subtype="Display" Count="14"/>
+                <Component Subtype="Computer" Count="47"/>
+                <Component Subtype="Construction" Count="168"/>
+                <Component Subtype="InteriorPlate" Count="403"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true"/>
+                <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2"/>
+                <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>LargeCargoContainer16x</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>252</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <InventorySize>
+                <X>120</X>
+                <Y>7.5</Y>
+                <Z>7.5</Z>
+            </InventorySize>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>SmallBlockLargeContainer16x</SubtypeId>
+            </Id>
+            <DisplayName>Epic Large Cargo Container</DisplayName>
+            <GuiVisible>false</GuiVisible>
+            <Icon>Textures\GUI\Icons\Cubes\container_large16x.dds</Icon>
+            <Description>Description_LargeCargoContainer</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="5" z="5"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+            <Components>
+                <Component Subtype="Tech8x" Count="111"/>
+                <Component Subtype="InteriorPlate" Count="286"/>
+                <Component Subtype="Construction" Count="185"/>
+                <Component Subtype="Computer" Count="41"/>
+                <Component Subtype="Motor" Count="47"/>
+                <Component Subtype="Display" Count="14"/>
+                <Component Subtype="InteriorPlate" Count="168"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>LargeCargoContainer16x</BlockPairName>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>85</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <InventorySize>
+                <X>40</X>
+                <Y>2.5</Y>
+                <Z>2.5</Z>
+            </InventorySize>
+        </Definition>
+    </CubeBlocks>
+    <BlockVariantGroups>
+     <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ContainerGroup" />
+        <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+        <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
+        <Description>Description_BlockGroup_ContainerGroup</Description>
+        <Blocks>
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer2x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer2x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer2x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer2x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer2x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer2x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer4x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer4x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer4x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer4x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer4x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer4x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer8x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer8x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer8x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer8x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer8x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer8x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer16x" />
+          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer16x" />
+        </Blocks>
+      </BlockVariantGroup>
+    </BlockVariantGroups>
+    <ResearchBlocks>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer16x" />
+            <UnlockedByGroups>
+                <GroupSubtype>9</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer16x" />
+            <UnlockedByGroups>
+                <GroupSubtype>9</GroupSubtype>
+            </UnlockedByGroups>
+        </ResearchBlock>
+    </ResearchBlocks>
+</Definitions>
