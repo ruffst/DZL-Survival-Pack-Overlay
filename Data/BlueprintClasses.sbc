@@ -13,6 +13,7 @@
 			<FocusIcon>Textures\GUI\Icons\buttons\highlight_Boxes.dds</FocusIcon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 		</Class>
+
 		<Class>
 			<Id>
 				<TypeId>BlueprintClassDefinition</TypeId>
@@ -163,6 +164,18 @@
 			<FocusIcon>Textures\GUI\Icons\buttons\highlight_Elite.dds</FocusIcon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>TieredMunition</SubtypeId>
+			</Id>
+			<DisplayName>Tiered Munition </DisplayName>
+			<Description>Tiered Munition </Description>
+			<Icon>Textures\GUI\Icons\buttons\Elite.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\highlight_Elite.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\highlight_Elite.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+		</Class>
 	</BlueprintClasses>
 	<BlueprintClassEntries>
 	<!--Ingots-->
@@ -231,14 +244,22 @@
 	<!--Ammo -->
 		<Entry Class="Components1" BlueprintSubtypeId="LeadMissile200mm" />
 		<Entry Class="Components3" BlueprintSubtypeId="PeneMissile200mm" />
-		
 		<Entry Class="Components1" BlueprintSubtypeId="Lead_NATO_25x184mmMagazine" />
 		<Entry Class="Components3" BlueprintSubtypeId="Pene_NATO_25x184mmMagazine" />
-
 		<Entry Class="Components1" BlueprintSubtypeId="LargeRailgunAmmoLead" />
 		<Entry Class="Components1" BlueprintSubtypeId="SmallRailgunAmmoLead" />
-
 		<Entry Class="Components1" BlueprintSubtypeId="LargeCalibreAmmoLead" />
 		<Entry Class="Components1" BlueprintSubtypeId="MediumCalibreAmmoLead" />
+
+		<Entry Class="TieredMunition" BlueprintSubtypeId="LeadMissile200mm" />
+		<Entry Class="TieredMunition" BlueprintSubtypeId="PeneMissile200mm" />
+		<Entry Class="TieredMunition" BlueprintSubtypeId="Lead_NATO_25x184mmMagazine" />
+		<Entry Class="TieredMunition" BlueprintSubtypeId="Pene_NATO_25x184mmMagazine" />
+		<Entry Class="TieredMunition" BlueprintSubtypeId="LargeRailgunAmmoLead" />
+		<Entry Class="TieredMunition" BlueprintSubtypeId="SmallRailgunAmmoLead" />
+		<Entry Class="TieredMunition" BlueprintSubtypeId="LargeCalibreAmmoLead" />
+		<Entry Class="TieredMunition" BlueprintSubtypeId="MediumCalibreAmmoLead" />
+
+
 	</BlueprintClassEntries>
 </Definitions>

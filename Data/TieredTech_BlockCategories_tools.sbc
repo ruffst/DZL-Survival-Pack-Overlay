@@ -36,13 +36,15 @@
 
         <string>ShipGrinder/LargeShipGrinder8x</string>
         <string>ShipWelder/LargeShipWelder8x</string>
+        <string>ShipWelder/LargeShipWelder16x</string>
         <string>Drill/LargeBlockDrill8x</string>
         <string>Drill/SmallBlockDrill8x</string>
         <string>Drill/LargeBlockDrill16x</string>
         <string>Drill/SmallBlockDrill16x</string>
         <string>ShipGrinder/SmallShipGrinder8x</string>
         <string>ShipWelder/SmallShipWelder8x</string>
+        <string>ShipWelder/SmallShipWelder16x</string>
       </ItemIds>
     </Category>
-  </CategoryClasses>
+  </CategoryClasses>~~~~
 </Definitions>

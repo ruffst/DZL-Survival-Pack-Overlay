@@ -1,6 +1,45 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Blueprints>
+		<Blueprint>      <!--LKCrystal-->
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>LKCrystal</SubtypeId>
+			</Id>
+			<DisplayName>LKCrystal</DisplayName>
+			<Icon>Textures\GUI\Icons\Crystals\LK.dds</Icon>
+			<Prerequisites>
+				<Item Amount="999999999" TypeId="Component" SubtypeId="Tech16x"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="LKCrystal" />
+			<BaseProductionTimeInSeconds>999999999999</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>      <!--TSCrystal-->
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>TSCrystal</SubtypeId>
+			</Id>
+			<DisplayName>TSCrystal</DisplayName>
+			<Icon>Textures\GUI\Icons\Crystals\TS.dds</Icon>
+			<Prerequisites>
+				<Item Amount="999999999" TypeId="Component" SubtypeId="Tech16x"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="TSCrystal" />
+			<BaseProductionTimeInSeconds>999999999999</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>      <!--PTCrystal-->
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>PTCrystal</SubtypeId>
+			</Id>
+			<DisplayName>PTCrystal</DisplayName>
+			<Icon>Textures\GUI\Icons\Crystals\PT.dds</Icon>
+			<Prerequisites>
+				<Item Amount="999999999" TypeId="Component" SubtypeId="Tech16x"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="PTCrystal" />
+			<BaseProductionTimeInSeconds>999999999999</BaseProductionTimeInSeconds>
+		</Blueprint>
 		<Blueprint>      <!--ZoneChip-->
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>
