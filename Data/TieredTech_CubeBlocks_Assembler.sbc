@@ -58,9 +58,12 @@
                 <Class>SmallBlocks</Class>
                 <Class>Boxes</Class>
                 <Class>Components0</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+				<Class>EliteWeapons</Class>
+				<Class>EliteConsumables</Class>		
                 <Class>BuildPlanner</Class>
-                <Class>EliteConsumables</Class>
+
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -137,9 +140,12 @@
                 <Class>SmallBlocks</Class>
                 <Class>Boxes</Class>
                 <Class>Components0</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+				<Class>EliteWeapons</Class>
+				<Class>EliteConsumables</Class>		
                 <Class>BuildPlanner</Class>
-                <Class>EliteConsumables</Class>
+
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -217,9 +223,12 @@
                 <Class>Boxes</Class>
                 <Class>Components0</Class>
                 <Class>Components1</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+				<Class>EliteWeapons</Class>
+				<Class>EliteConsumables</Class>		
                 <Class>BuildPlanner</Class>
-                <Class>EliteConsumables</Class>
+
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -296,9 +305,12 @@
                 <Class>Boxes</Class>
                 <Class>Components0</Class>
                 <Class>Components1</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+				<Class>EliteWeapons</Class>
+				<Class>EliteConsumables</Class>		
                 <Class>BuildPlanner</Class>
-                <Class>EliteConsumables</Class>
+
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -376,9 +388,12 @@
                 <Class>Components0</Class>
                 <Class>Components1</Class>
                 <Class>Components2</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+				<Class>EliteWeapons</Class>
+				<Class>EliteConsumables</Class>		
                 <Class>BuildPlanner</Class>
-                <Class>EliteConsumables</Class>
+
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -456,9 +471,12 @@
                 <Class>Components0</Class>
                 <Class>Components1</Class>
                 <Class>Components2</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+				<Class>EliteWeapons</Class>
+				<Class>EliteConsumables</Class>		
                 <Class>BuildPlanner</Class>
-                <Class>EliteConsumables</Class>
+
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -538,9 +556,12 @@
                 <Class>Components1</Class>
                 <Class>Components2</Class>
                 <Class>Components3</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+				<Class>EliteWeapons</Class>
+				<Class>EliteConsumables</Class>		
                 <Class>BuildPlanner</Class>
-                <Class>EliteConsumables</Class>
+
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -618,9 +639,11 @@
                 <Class>Components1</Class>
                 <Class>Components2</Class>
                 <Class>Components3</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+				<Class>EliteWeapons</Class>
+				<Class>EliteConsumables</Class>		
                 <Class>BuildPlanner</Class>
-                <Class>EliteConsumables</Class>
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -701,9 +724,12 @@
                 <Class>Components1</Class>
                 <Class>Components2</Class>
                 <Class>Components3</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+				<Class>EliteWeapons</Class>
+				<Class>EliteConsumables</Class>		
                 <Class>BuildPlanner</Class>
-                <Class>EliteConsumables</Class>
+
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -782,9 +808,11 @@
                 <Class>Components1</Class>
                 <Class>Components2</Class>
                 <Class>Components3</Class>
+                <Class>EliteEquipment</Class>
                 <Class>EliteTools</Class>
+				<Class>EliteWeapons</Class>
+				<Class>EliteConsumables</Class>		
                 <Class>BuildPlanner</Class>
-                <Class>EliteConsumables</Class>
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
