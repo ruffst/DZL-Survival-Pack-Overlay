@@ -171,9 +171,9 @@
             <TypeId>Assembler</TypeId>
             <SubtypeId>Munitionsfabrik</SubtypeId>
         </Id>
-        <DisplayName>Munitionsfabrik</DisplayName>
+        <DisplayName>Spezial Assember</DisplayName>
         <Icon>Textures\GUI\Icons\Cubes\tool_assembler.dds</Icon>
-        <Description>Munitionsfabrik</Description>
+        <Description>Die Spezialfabrik ist besonders schnell (Besser als die Epic Tierstufe). Beherscht alle Munitionsarten, Werkzeuge und Waffen.  </Description>
         <CubeSize>Large</CubeSize>
         <GuiVisible>false</GuiVisible>
         <BlockTopology>TriangleMesh</BlockTopology>
@@ -181,14 +181,14 @@
         <ModelOffset x="0" y="0" z="0" />
         <Model>Models\ToolAssinclBuildStages.mwm</Model>
         <Components>
-            <Component Subtype="PTCrystal" Count="130"/>
-            <Component Subtype="SteelPlate" Count="180"/>
+            <Component Subtype="PTCrystal" Count="330"/>
+            <Component Subtype="Bleiplatte" Count="180"/>
             <Component Subtype="Construction" Count="120"/>
             <Component Subtype="Motor" Count="30"/>
             <Component Subtype="Display" Count="15"/>
-            <Component Subtype="MetalGrid" Count="15"/>
+            <Component Subtype="MetalGrid" Count="150"/>
             <Component Subtype="Computer" Count="240"/>
-            <Component Subtype="SteelPlate" Count="30"/>
+            <Component Subtype="SteelPlate" Count="130"/>
         </Components>
         <CriticalComponent Subtype="Computer" Index="0" />
         <MountPoints>
@@ -207,8 +207,8 @@
         <EdgeType>Light</EdgeType>
         <BuildTimeSeconds>80</BuildTimeSeconds>
         <ResourceSinkGroup>Factory</ResourceSinkGroup>
-        <InventoryMaxVolume>25</InventoryMaxVolume>
-        <AssemblySpeed>32</AssemblySpeed>
+        <InventoryMaxVolume>22</InventoryMaxVolume>
+        <AssemblySpeed>18</AssemblySpeed>
         <InventorySize>
             <X>4</X>
             <Y>1</Y>
@@ -217,8 +217,14 @@
         <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
         <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
         <BlueprintClasses>
+            <Class>Boxes</Class>
+            <!--<Class>CrystalClass</Class>-->
             <Class>TieredMunition</Class>
             <Class>EliteConsumables</Class>
+            <Class>EliteEquipment</Class>
+            <Class>EliteTools</Class>
+            <Class>EliteWeapons</Class>
+            
         </BlueprintClasses>
         <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
         <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -877,7 +883,7 @@
             <BlueprintClasses>
                 <Class>LargeBlocks</Class>
                 <Class>SmallBlocks</Class>
-                 <Class>Boxes</Class>
+                <Class>Boxes</Class>
                 <Class>Components0</Class>
                 <Class>Components1</Class>
                 <Class>Components2</Class>

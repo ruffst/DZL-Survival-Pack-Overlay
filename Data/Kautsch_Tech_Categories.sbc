@@ -1,0 +1,43 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <!-- JumpDrive Interdictor Blocks -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Kautsch Tech</DisplayName>
+      <Name>Kautsch Tech</Name>
+      <StrictSearch>true</StrictSearch>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+        <string>WarpScrambler</string>
+        <string>LargeAssembler16x</string>
+        <string>LargeAssemblerIndustrial16x</string>
+        <string>Munitionsfabrik</string>
+        <string>LargeShipWelder16x</string>
+        <string>CommonLargeWarhead</string>
+        <string>CommonSmallWarhead</string>
+        <string>ProficientLargeWarhead</string>
+        <string>ProficientSmallWarhead</string>
+        <string>EliteLargeWarhead</string>
+        <string>EliteSmallWarhead</string>
+        <string>EpicLargeWarhead</string>
+        <string>EpicSmallWarhead</string>
+        <string>SmallBlockOreDetector16x</string>
+        <string>LargeOreDetector16x</string>
+        <string>LargeBlockDrill16x</string>
+        <string>SmallBlockDrill16x</string>
+        <string>SmallJumpDrive16x</string>
+        <string>LargeJumpDrive16x</string>
+        <string>LargeRefinery16x</string>
+        <string>LargeRefineryIndustrial16x</string>
+        <string>LargeBlockLargeContainer16x</string>
+        <string>SmallBlockLargeContainer16x</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>

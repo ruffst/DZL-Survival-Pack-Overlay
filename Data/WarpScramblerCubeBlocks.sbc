@@ -8,7 +8,7 @@
 				<SubtypeId>WarpScrambler</SubtypeId>
 			</Id>
 			<DisplayName>Warp Scrambler</DisplayName>
-            <Icon>Textures\GUI\JumpInhibitor.png</Icon>
+            <Icon>Textures\GUI\JumpInhibitor.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3" />

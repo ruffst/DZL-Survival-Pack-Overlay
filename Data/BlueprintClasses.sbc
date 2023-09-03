@@ -171,9 +171,21 @@
 			</Id>
 			<DisplayName>Tiered Munition </DisplayName>
 			<Description>Tiered Munition </Description>
-			<Icon>Textures\GUI\Icons\buttons\Elite.dds</Icon>
-			<HighlightIcon>Textures\GUI\Icons\buttons\highlight_Elite.dds</HighlightIcon>
-			<FocusIcon>Textures\GUI\Icons\buttons\highlight_Elite.dds</FocusIcon>
+			<Icon>Textures\GUI\Icons\buttons\Ammo.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\Ammo_highlight.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\Ammo_highlight.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>CrystalClass</SubtypeId>
+			</Id>
+			<DisplayName>Kristall Rezepte</DisplayName>
+			<Description>Besondere Rezepte um aus Items aus Spielzeitkristallen zu bauen</Description>
+			<Icon>Textures\GUI\Icons\buttons\PT.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\buttons\PT_highlight.dds</HighlightIcon>
+			<FocusIcon>Textures\GUI\Icons\buttons\PT_highlight.dds</FocusIcon>
 			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
 		</Class>
 	</BlueprintClasses>
@@ -235,7 +247,7 @@
 		<Entry Class="Boxes" BlueprintSubtypeId="Nickel_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Uranium_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Platinum_Box_Component" />
-		<Entry Class="Boxes" BlueprintSubtypeId="Silver_Box_Box_Component" />
+		<Entry Class="Boxes" BlueprintSubtypeId="Silver_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Gold_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Copper_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Lead_Box_Component" />
@@ -259,7 +271,8 @@
 		<Entry Class="TieredMunition" BlueprintSubtypeId="SmallRailgunAmmoLead" />
 		<Entry Class="TieredMunition" BlueprintSubtypeId="LargeCalibreAmmoLead" />
 		<Entry Class="TieredMunition" BlueprintSubtypeId="MediumCalibreAmmoLead" />
-
+	<!-- Crystals -->
+		<Entry Class="CrystalClass" BlueprintSubtypeId="ZoneChip" />
 
 	</BlueprintClassEntries>
 </Definitions>
