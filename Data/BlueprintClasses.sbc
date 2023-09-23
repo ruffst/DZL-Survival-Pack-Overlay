@@ -230,6 +230,7 @@
 		<Entry Class="Components0" BlueprintSubtypeId="PowerCell" />
 		<Entry Class="Components0" BlueprintSubtypeId="Superconductor" />
 		<Entry Class="Components0" BlueprintSubtypeId="Tech2x" />
+		<Entry Class="Components1" BlueprintSubtypeId="ShieldComponentBP" />
 		<Entry Class="Components1" BlueprintSubtypeId="Tech4x" />
 		<Entry Class="Components1" BlueprintSubtypeId="Bleiplatte" />
 		<Entry Class="Components1" BlueprintSubtypeId="Kupferdraht" />
