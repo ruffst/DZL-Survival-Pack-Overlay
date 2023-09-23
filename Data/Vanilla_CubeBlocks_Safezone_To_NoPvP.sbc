@@ -7,7 +7,7 @@
                 <TypeId>SafeZoneBlock</TypeId>
                 <SubtypeId>SafeZoneBlock</SubtypeId>
             </Id>
-            <DisplayName>Safezone for NoPvP Sector</DisplayName>
+            <DisplayName>Beginner Safezone</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
             <Description>Description_SafeZone</Description>
             <CubeSize>Large</CubeSize>
@@ -68,7 +68,7 @@
 <!--1682499145/Data/CubeBlocks_SafeZone.sbc-->
 
         <!--        Tier 2-->
-        <Definition Enabled="false" xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
+        <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
             <Id>
                 <TypeId>SafeZoneBlock</TypeId>
                 <SubtypeId>SafeZoneBlock2x</SubtypeId>
@@ -124,14 +124,15 @@
             <DamagedSound>ParticleElectrical</DamagedSound>
 
             <!-- Safezone info -->
-            <MaxSafeZoneRadius>500</MaxSafeZoneRadius>
-            <MinSafeZoneRadius>10</MinSafeZoneRadius>
             <DefaultSafeZoneRadius>10</DefaultSafeZoneRadius>
-            <SafeZoneActivationTimeS>120</SafeZoneActivationTimeS>
-            <MaxSafeZonePowerDrainkW>50000</MaxSafeZonePowerDrainkW>
-            <MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
-            <SafeZoneUpkeep>1</SafeZoneUpkeep>
-            <SafeZoneUpkeepTimeM>80</SafeZoneUpkeepTimeM>
+            <MaxSafeZoneRadius>200</MaxSafeZoneRadius>
+            <MinSafeZoneRadius>10</MinSafeZoneRadius>
+            <SafeZoneActivationTimeS>30</SafeZoneActivationTimeS>
+            <MaxSafeZonePowerDrainkW>1650</MaxSafeZonePowerDrainkW>
+            <MinSafeZonePowerDrainkW>1000</MinSafeZonePowerDrainkW>
+            <!--<SafeZoneShape>Sphere</SafeZoneShape>-->
+            <SafeZoneUpkeep>3</SafeZoneUpkeep>
+            <SafeZoneUpkeepTimeM>240</SafeZoneUpkeepTimeM>
             <!-- End Safezone Props-->
 
             <ActionSound>BlockSafeZone</ActionSound>
@@ -142,7 +143,7 @@
 
 
         <!--        Tier 4-->
-        <Definition Enabled="false" xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
+        <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
             <Id>
                 <TypeId>SafeZoneBlock</TypeId>
                 <SubtypeId>SafeZoneBlock4x</SubtypeId>
@@ -198,14 +199,15 @@
             <DamagedSound>ParticleElectrical</DamagedSound>
 
             <!-- Safezone info -->
-            <MaxSafeZoneRadius>500</MaxSafeZoneRadius>
-            <MinSafeZoneRadius>10</MinSafeZoneRadius>
             <DefaultSafeZoneRadius>10</DefaultSafeZoneRadius>
-            <SafeZoneActivationTimeS>120</SafeZoneActivationTimeS>
-            <MaxSafeZonePowerDrainkW>40000</MaxSafeZonePowerDrainkW>
-            <MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
-            <SafeZoneUpkeep>1</SafeZoneUpkeep>
-            <SafeZoneUpkeepTimeM>100</SafeZoneUpkeepTimeM>
+            <MaxSafeZoneRadius>350</MaxSafeZoneRadius>
+            <MinSafeZoneRadius>10</MinSafeZoneRadius>
+            <SafeZoneActivationTimeS>60</SafeZoneActivationTimeS>
+            <MaxSafeZonePowerDrainkW>16500</MaxSafeZonePowerDrainkW>
+            <MinSafeZonePowerDrainkW>5000</MinSafeZonePowerDrainkW>
+            <!--<SafeZoneShape>Sphere</SafeZoneShape>-->
+            <SafeZoneUpkeep>2</SafeZoneUpkeep>
+            <SafeZoneUpkeepTimeM>240</SafeZoneUpkeepTimeM>
             <!-- End Safezone Props-->
 
             <ActionSound>BlockSafeZone</ActionSound>
@@ -216,7 +218,7 @@
 
 
         <!--        Tier 8-->
-        <Definition Enabled="false" xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
+        <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
             <Id>
                 <TypeId>SafeZoneBlock</TypeId>
                 <SubtypeId>SafeZoneBlock8x</SubtypeId>
@@ -272,14 +274,15 @@
             <DamagedSound>ParticleElectrical</DamagedSound>
 
             <!-- Safezone info -->
-            <MaxSafeZoneRadius>500</MaxSafeZoneRadius>
-            <MinSafeZoneRadius>10</MinSafeZoneRadius>
             <DefaultSafeZoneRadius>10</DefaultSafeZoneRadius>
-            <SafeZoneActivationTimeS>120</SafeZoneActivationTimeS>
-            <MaxSafeZonePowerDrainkW>30000</MaxSafeZonePowerDrainkW>
-            <MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
+            <MaxSafeZoneRadius>550</MaxSafeZoneRadius>
+            <MinSafeZoneRadius>10</MinSafeZoneRadius>
+            <SafeZoneActivationTimeS>60</SafeZoneActivationTimeS>
+            <MaxSafeZonePowerDrainkW>165000</MaxSafeZonePowerDrainkW>
+            <MinSafeZonePowerDrainkW>50000</MinSafeZonePowerDrainkW>
+            <!--<SafeZoneShape>Sphere</SafeZoneShape>-->
             <SafeZoneUpkeep>1</SafeZoneUpkeep>
-            <SafeZoneUpkeepTimeM>120</SafeZoneUpkeepTimeM>
+            <SafeZoneUpkeepTimeM>240</SafeZoneUpkeepTimeM>
             <!-- End Safezone Props-->
 
             <ActionSound>BlockSafeZone</ActionSound>

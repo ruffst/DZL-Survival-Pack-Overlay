@@ -239,7 +239,7 @@
 		<Entry Class="Components2" BlueprintSubtypeId="TitanPlate" />
 		<Entry Class="Components3" BlueprintSubtypeId="PenetratiumToPlate" />
 		<Entry Class="Components3" BlueprintSubtypeId="Tech16x" />
-		<Entry Class="Components3" BlueprintSubtypeId="ZoneChip" />
+		<Entry Class="Components1" BlueprintSubtypeId="ZoneChip" />
 	<!--Boxes -->
 		<Entry Class="Boxes" BlueprintSubtypeId="Cobalt_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Iron_Box_Component" />
