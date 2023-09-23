@@ -1,6 +1,23 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Blueprints>
+		<Blueprint>
+		<Id>
+			<TypeId>BlueprintDefinition</TypeId>
+			<SubtypeId>ShieldComponentBP</SubtypeId>
+		</Id>
+		<DisplayName>Field Emitter</DisplayName>
+		<Icon>..\1365616918\Textures\Icons\Shield_Comp1.dds</Icon>
+		<Prerequisites>
+		<!-- Define Required Items List based on classnames-->
+			<Item Amount="6" TypeId="Component" SubtypeId="AluminiumPlate"/>
+			<Item Amount="32" TypeId="Component" SubtypeId="Bleiplatte"/>
+			<Item Amount="16" TypeId="Component" SubtypeId="Kupferdraht"/>
+
+		</Prerequisites>
+		<Result Amount="1" TypeId="Component" SubtypeId="ShieldComponent" />
+		<BaseProductionTimeInSeconds>7</BaseProductionTimeInSeconds>
+		</Blueprint>
 		<Blueprint>      <!--LKCrystal-->
 			<Id>
 				<TypeId>BlueprintDefinition</TypeId>

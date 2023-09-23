@@ -434,7 +434,7 @@
       <MinedOreRatio>3</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
-      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>4</AsteroidGeneratorSpawnProbabilityMultiplier>
 
@@ -485,7 +485,7 @@
       <MinedOreRatio>2</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
-      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
 
@@ -529,7 +529,7 @@
       <MinedOreRatio>1</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
-      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
 
@@ -576,7 +576,7 @@
       <MinedOreRatio>3</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
-      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>3</AsteroidGeneratorSpawnProbabilityMultiplier>
 
@@ -678,7 +678,7 @@
       <MinedOreRatio>0.8</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
-      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <VoxelHandPreview>Textures\Voxels\Gold_01_Thumbnail.dds</VoxelHandPreview>
@@ -729,7 +729,7 @@
       <MinedOreRatio>0.5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
-      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <VoxelHandPreview>Textures\Voxels\Uraninite_01_Thumbnail.dds</VoxelHandPreview>
@@ -989,7 +989,7 @@
       <MinedOreRatio>0.8</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
-      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
 
       <VoxelHandPreview>Textures\Voxels\Platinum_01_Thumbnail.dds</VoxelHandPreview>
