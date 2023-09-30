@@ -933,7 +933,7 @@
 				<Item Amount="25" TypeId="Ingot" SubtypeId="Uranium"/>
 				<Item Amount="20" TypeId="Ingot" SubtypeId="Platinum"/>
 				<Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
-				<Item Amount="10" TypeId="Component" SubtypeId="Tech2x"/>
+				<Item Amount="15" TypeId="Component" SubtypeId="Tech2x"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
 			<BaseProductionTimeInSeconds>80</BaseProductionTimeInSeconds>
@@ -954,7 +954,7 @@
         		<Item Amount="40" TypeId="Ingot" SubtypeId="Lead"/>
 				<Item Amount="20" TypeId="Ingot" SubtypeId="Aluminium"/>
 				<Item Amount="10" TypeId="Ingot" SubtypeId="Titanium"/>
-				<Item Amount="8" TypeId="Component" SubtypeId="Tech4x"/>
+				<Item Amount="20" TypeId="Component" SubtypeId="Tech4x"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
 			<BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
@@ -964,7 +964,7 @@
 				<TypeId>BlueprintDefinition</TypeId>
 				<SubtypeId>Tech16x</SubtypeId>
 			</Id>
-			<DisplayName>Elite Tech</DisplayName>
+			<DisplayName>Epic Tech</DisplayName>
 			<Icon>Textures\tech16x.dds</Icon>
 			<Prerequisites>
 				<Item Amount="40" TypeId="Ingot" SubtypeId="Uranium"/>
@@ -974,26 +974,7 @@
 				<Item Amount="40" TypeId="Ingot" SubtypeId="Aluminium"/>
 				<Item Amount="20" TypeId="Ingot" SubtypeId="Titanium"/>
 				<Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>
-				<Item Amount="6" TypeId="Component" SubtypeId="Tech8x"/>
-			</Prerequisites>
-			<Result Amount="1" TypeId="Component" SubtypeId="Tech16x"/>
-			<BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
-		</Blueprint>
-		<Blueprint>
-			<Id>
-				<TypeId>BlueprintDefinition</TypeId>
-				<SubtypeId>Tech16x</SubtypeId>
-			</Id>
-			<DisplayName>Elite Tech</DisplayName>
-			<Icon>Textures\tech16x.dds</Icon>
-			<Prerequisites>
-				<Item Amount="40" TypeId="Ingot" SubtypeId="Platinum"/>
-				<Item Amount="80" TypeId="Ingot" SubtypeId="Copper"/>
-        		<Item Amount="80" TypeId="Ingot" SubtypeId="Lead"/>
-				<Item Amount="50" TypeId="Ingot" SubtypeId="Aluminium"/>
-				<Item Amount="30" TypeId="Ingot" SubtypeId="Titanium"/>
-				<Item Amount="12" TypeId="Ingot" SubtypeId="Penetratium"/>
-				<Item Amount="4" TypeId="Component" SubtypeId="Tech8x"/>
+				<Item Amount="30" TypeId="Component" SubtypeId="Tech8x"/>
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="Tech16x"/>
 			<BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
