@@ -219,7 +219,6 @@
         <BlueprintClasses>
             <Class>Boxes</Class>
             <!--<Class>CrystalClass</Class>-->
-            <Class>TieredMunition</Class>
             <Class>EliteConsumables</Class>
             <Class>EliteEquipment</Class>
             <Class>EliteTools</Class>

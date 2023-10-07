@@ -29,64 +29,7 @@
         <Model BuildPercentUpperBound="0.66" File="..\1637605140\Models\small\Thruster_modular_construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="..\1637605140\Models\small\Thruster_modular_construction_3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModularBase8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModularCorner8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModularLine8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModularSide8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModularFace8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModular45degCorner8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModular45degLeft8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModular45degRight8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModular45degSingle8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModular45degLeftLine8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModular45degRightLine8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModular45degLine8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModular45degLeftCorner8x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>Thrust</TypeId>
-          <SubtypeId>SmallMAMThrusterModular45degRightCorner8x</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
+
       <BlockPairName>MAMThrusterSingle8x</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>

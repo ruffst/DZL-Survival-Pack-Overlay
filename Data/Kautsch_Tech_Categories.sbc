@@ -7,7 +7,7 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>Kautsch Tech</DisplayName>
+      <DisplayName>Let's Kautsch Tech</DisplayName>
       <Name>Kautsch Tech</Name>
       <StrictSearch>true</StrictSearch>
       <IsShipCategory>false</IsShipCategory>

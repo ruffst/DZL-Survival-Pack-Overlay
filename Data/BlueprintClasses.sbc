@@ -230,7 +230,6 @@
 		<Entry Class="Components0" BlueprintSubtypeId="PowerCell" />
 		<Entry Class="Components0" BlueprintSubtypeId="Superconductor" />
 		<Entry Class="Components0" BlueprintSubtypeId="Tech2x" />
-		<Entry Class="Components1" BlueprintSubtypeId="ShieldComponentBP" />
 		<Entry Class="Components1" BlueprintSubtypeId="Tech4x" />
 		<Entry Class="Components1" BlueprintSubtypeId="Bleiplatte" />
 		<Entry Class="Components1" BlueprintSubtypeId="Kupferdraht" />
@@ -255,23 +254,8 @@
 		<Entry Class="Boxes" BlueprintSubtypeId="Aluminum_Box_Component" />
 		<Entry Class="Boxes" BlueprintSubtypeId="Titan_Box_Component" />
 	<!--Ammo -->
-		<Entry Class="Components1" BlueprintSubtypeId="LeadMissile200mm" />
-		<Entry Class="Components3" BlueprintSubtypeId="PeneMissile200mm" />
-		<Entry Class="Components1" BlueprintSubtypeId="Lead_NATO_25x184mmMagazine" />
-		<Entry Class="Components3" BlueprintSubtypeId="Pene_NATO_25x184mmMagazine" />
-		<Entry Class="Components1" BlueprintSubtypeId="LargeRailgunAmmoLead" />
-		<Entry Class="Components1" BlueprintSubtypeId="SmallRailgunAmmoLead" />
-		<Entry Class="Components1" BlueprintSubtypeId="LargeCalibreAmmoLead" />
-		<Entry Class="Components1" BlueprintSubtypeId="MediumCalibreAmmoLead" />
 
-		<Entry Class="TieredMunition" BlueprintSubtypeId="LeadMissile200mm" />
-		<Entry Class="TieredMunition" BlueprintSubtypeId="PeneMissile200mm" />
-		<Entry Class="TieredMunition" BlueprintSubtypeId="Lead_NATO_25x184mmMagazine" />
-		<Entry Class="TieredMunition" BlueprintSubtypeId="Pene_NATO_25x184mmMagazine" />
-		<Entry Class="TieredMunition" BlueprintSubtypeId="LargeRailgunAmmoLead" />
-		<Entry Class="TieredMunition" BlueprintSubtypeId="SmallRailgunAmmoLead" />
-		<Entry Class="TieredMunition" BlueprintSubtypeId="LargeCalibreAmmoLead" />
-		<Entry Class="TieredMunition" BlueprintSubtypeId="MediumCalibreAmmoLead" />
+
 	<!-- Crystals -->
 		<Entry Class="CrystalClass" BlueprintSubtypeId="ZoneChip" />
 

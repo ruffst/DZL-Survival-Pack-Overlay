@@ -44,7 +44,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>JumpDrive8x</BlockPairName>
+            <BlockPairName>JumpDrive16x</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -98,7 +98,7 @@
                 <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9"/>
                 <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9"/>
             </MountPoints>
-            <BlockPairName>JumpDrive8x</BlockPairName>
+            <BlockPairName>JumpDrive16x</BlockPairName>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="..\1682499145\Models\Cubes\JumpDrive\JumpDriveConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="0.66" File="..\1682499145\Models\Cubes\JumpDrive\JumpDriveConstruction_2.mwm"/>

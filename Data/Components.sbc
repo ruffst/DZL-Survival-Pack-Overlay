@@ -4,6 +4,25 @@
     <Component>
         <Id>
             <TypeId>Component</TypeId>
+            <SubtypeId>AdminItem</SubtypeId>
+        </Id>
+        <DisplayName>Let's Kautsch Adminitem</DisplayName>
+        <Icon>Textures\GUI\Icons\ore_electronic_scrap.dds</Icon>
+        <Size>
+            <X>0.1</X>
+            <Y>0.1</Y>
+            <Z>0.2</Z>
+        </Size>
+        <Mass>0.250</Mass>
+        <Volume>0.2</Volume>
+        <Model>Models\Items\ZoneChip_Item.mwm</Model>
+        <PhysicalMaterial>Metal</PhysicalMaterial>
+        <CanPlayerOrder>false</CanPlayerOrder>
+        <MaxIntegrity>1</MaxIntegrity>
+    </Component> 
+    <Component>
+        <Id>
+            <TypeId>Component</TypeId>
             <SubtypeId>LKCrystal</SubtypeId>
         </Id>
         <DisplayName>Let's Kautsch Kristall</DisplayName>
