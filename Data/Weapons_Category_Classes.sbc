@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+     <CategoryClasses>
+          <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+          <Id>
+              <TypeId>GuiBlockCategoryDefinition</TypeId>
+              <SubtypeId/>
+          </Id>
+          <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+          <Name>Weapons</Name>
+          <ItemIds>
+              <string>Warhead/LargeWarhead</string>
+              <string>Warhead/SmallWarhead</string>
+              <string>Warhead/CommonLargeWarhead</string>
+              <string>Warhead/CommonSmallWarhead</string>
+              <string>Warhead/ProficientLargeWarhead</string>
+              <string>Warhead/ProficientSmallWarhead</string>
+              <string>Warhead/EliteLargeWarhead</string>
+              <string>Warhead/EliteSmallWarhead</string>
+              <string>Warhead/EpicLargeWarhead</string>
+              <string>Warhead/EpicSmallWarhead</string>
+              <string>Warhead/LargeExplosiveBarrel</string>
+              <string>Warhead/SmallExplosiveBarrel</string>
+              <string>InteriorTurret/LargeInteriorTurret</string>
+              <string>LargeGatlingTurret/(null)</string>
+              <string>LargeMissileTurret/(null)</string>
+              <string>LargeGatlingTurret/SmallGatlingTurret</string>
+              <string>LargeGatlingTurret/AutoCannonTurret</string>
+              <string>LargeMissileTurret/SmallMissileTurret</string>
+              <string>SmallMissileLauncher/LargeMissileLauncher</string>
+              <string>SmallGatlingGun/(null)</string>
+              <string>SmallGatlingGun/SmallGatlingGunWarfare2</string>
+              <string>SmallGatlingGun/SmallBlockAutocannon</string>
+              <string>SmallMissileLauncher/(null)</string>
+              <string>SmallMissileLauncherReload/SmallRocketLauncherReload</string>
+              <string>SmallMissileLauncher/SmallMissileLauncherWarfare2</string>
+              <string>SmallMissileLauncherReload/LargeRailgun</string>
+              <string>SmallMissileLauncherReload/SmallRailgun</string>
+              <string>SmallMissileLauncherReload/SmallBlockMediumCalibreGun</string>
+              <string>SmallMissileLauncher/LargeBlockLargeCalibreGun</string>
+              <string>LargeMissileTurret/LargeCalibreTurret</string>
+              <string>LargeMissileTurret/LargeBlockMediumCalibreTurret</string>
+              <string>LargeMissileTurret/SmallBlockMediumCalibreTurret</string>
+              <string>ConveyorSorter/MWI_B1_Fixed_100mm</string>
+              <string>LargeMissileTurret/nariman_compact</string>
+              <string>LargeMissileTurret/nariman</string>
+          </ItemIds>
+      </Category>
+    </CategoryClasses>
+</Definitions>

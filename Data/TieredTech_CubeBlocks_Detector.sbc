@@ -17,7 +17,7 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\Cubes\Large\OreDetector.mwm</Model>
             <Components>
-                <Component Subtype="Tech8x" Count="40"/>
+                <Component Subtype="Tech16x" Count="40"/>
                 <Component Subtype="SteelPlate" Count="102"/>
                 <Component Subtype="Construction" Count="135"/>
                  <Component Subtype="Kupferdraht" Count="268"/>

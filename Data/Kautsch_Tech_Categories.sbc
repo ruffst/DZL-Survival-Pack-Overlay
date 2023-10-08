@@ -8,7 +8,7 @@
         <SubtypeId/>
       </Id>
       <DisplayName>Let's Kautsch Tech</DisplayName>
-      <Name>Kautsch Tech</Name>
+      <Name>Kautschtech</Name>
       <StrictSearch>true</StrictSearch>
       <IsShipCategory>false</IsShipCategory>
       <IsBlockCategory>true</IsBlockCategory>
@@ -36,6 +36,13 @@
         <string>LargeRefineryIndustrial16x</string>
         <string>LargeBlockLargeContainer16x</string>
         <string>SmallBlockLargeContainer16x</string>
+        <string>MWI_B1_Fixed_100mm</string>
+        <string>nariman</string>
+        <string>nariman_compact</string>
+        <string>SmallShieldGeneratorBase</string>
+        <string>LargeShieldGeneratorBase</string>
+        <string>ShieldCapacitor</string>
+        <string>ShieldFluxCoil</string>
       </ItemIds>
     </Category>
 
